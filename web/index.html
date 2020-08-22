@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>网站标题</title>
+        <meta name="description" content="description" />
+        <meta name="keywords" content="keywords" />
+        <link rel="shortcut icon" href="../static/favicon.ico">
+        <link rel="stylesheet" href="../static/lib/animate-3.7.2/animate.min.css?v=3.7.2">
+        <script src="../static/lib/wow-1.0.1/wow.min.js?v=1.0.1"></script>
+        <script type="text/javascript">
+            new WOW().init();
+        </script>
+        <link href="../static/lib/nprogress-0.2.0/nprogress.min.css?v=0.2.0" rel="stylesheet">
+        <script src="../static/lib/nprogress-0.2.0/nprogress.js?v=0.2.0"></script>
+        <link rel="stylesheet" href="../static/lib/layui-2.5.6/css/layui.css?v=2.5.6">
+        <script src="../static/lib/layui-2.5.6/layui.js?v=2.5.6"></script>
+        <script src="../static/lib/jquery-all/jquery-3.2.1/jquery-3.2.1.min.js"></script>
+        <script src="../static/lib/bignumber-8.1.1/bignumber.js?v=8.1.1"></script>
+        <script src="../static/lib/clipboard-2.0.4/clipboard.min.js?v=2.0.4"></script>
+        <link rel="stylesheet" href="../static/lib/swiper-5.3.7/css/swiper.min.css?v=5.3.7">
+        <script src="../static/lib/swiper-5.3.7/js/swiper.min.js?v=5.3.7"></script>
+        <link rel="stylesheet" href="../static/lib/zywl-0.0.1/app.min.css">
+        <link rel="stylesheet" href="../static/lib/mdui-v0.4.3/css/mdui.min.css">
+        <script src="../static/lib/mdui-v0.4.3/js/mdui.min.js"></script>
+        <link rel="stylesheet" href="../static/lib/zui-1.9.1/css/zui.min.css">
+        <script src="../static/lib/zui-1.9.1/js/zui.min.js"></script>
+        <script>
+            const layerConfig = {
+                basePath: '../static/',
+            };
+        </script>
+        <script src="../static/js/index.js"></script>
+        <style>
+            .map {
+                padding-bottom: 45px;
+            }
+            .mapDom {
+                margin: 0 auto;
+                width: 1200px;
+                height: 600px;
+            }
+        </style>
+        <script type="text/javascript" src="http://api.map.baidu.com/api?v=3.0&ak=cGMtkqYUtOCq367prkYSVky3TXVgU0kD"></script>
+    </head>
+    <body>
+        <script>
+            NProgress.start();
+        </script>
+        <header>
+            <h1>
+                <a href="javascript:;">
+                    <img src="https://www.zoyuan.net/Static/img/logo.png" alt="logo">
+                </a>
+            </h1>
+        </header>
+        <main>
+            <div class="map">
+                <div class="mapDom" 
+                    id="container"
+                    mapContainer
+                    map-lontolat="108.953435,34.265578"
+                    map-informationWH="300,200"
+                    map-informationT="钟楼"
+                    map-informationD="西安钟楼西安钟楼西安钟楼西安钟楼西安钟楼西安钟楼"
+                >
+                </div>
+            </div>
+        <div class="showNumber">
+            <ul class="clearfix" style="font-size: 50px;">
+                <li class="fl">
+                    <p><i initPurNumber plus-difference="30" plus-end="2001">2001</i>年</p>
+                </li>
+                <li class="fl">
+                    <p><i initPurNumber plus-difference="30" plus-end="50000">50000</i>件</p>
+                </li>
+                <li class="fl">
+                    <p><i initPurNumber plus-difference="30" plus-end="10000">10000</i>方</p>
+                </li>
+            </ul>
+        </div>
+        
+        #swiper
+        <banner>
+        <div class="swiper">
+            <div class="swiper-container" 
+            new-swiper
+            site-loop
+            site-pagination="{el: '.pagination1'}"
+            >
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="http://www.landegd.com/Uploads/202004/5e9ec670ac4a7.png">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="http://www.landegd.com/Uploads/202004/5e97fe7a0a447.png">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="http://www.landegd.com/Uploads/202004/5e97feca7b48a.png">
+                    </div>
+                </div>
+            </div>
+            #如果需要导航按钮
+            <!-- <div class="swiper-button-prev prev1"></div> -->
+            <!-- <div class="swiper-button-next next1"></div> -->
+            <!-- <div class="swiper-pagination pagination1"></div> -->
+        </div>
+        <div class="swiper">
+            <div class="swiper-container" 
+            new-swiper
+            site-loop
+            site-pagination="{el: '.pagination2'}"
+            >
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="http://www.landegd.com/Uploads/202004/5e9ec670ac4a7.png">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="http://www.landegd.com/Uploads/202004/5e97fe7a0a447.png">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="http://www.landegd.com/Uploads/202004/5e97feca7b48a.png">
+                    </div>
+                </div>
+            </div>
+            #如果需要导航按钮
+            <!-- <div class="swiper-button-prev prev1"></div> -->
+            <!-- <div class="swiper-button-next next1"></div> -->
+            <!-- <div class="swiper-pagination pagination2"></div> -->
+        </div>
+        </banner>
+        #表单
+        <form class="layui-form">
+            <input type="text" name="c_user" placeholder="输入您的姓名">
+            <input type="text" name="c_phone" lay-verify="required|phone" lay-title="手机号" placeholder="输入您的手机号">
+            #立即提交的三种可选项
+            <a href="javascript:;" lay-submit lay-filter="*">立即提交</a>
+            <button type="button" lay-submit lay-filter="*">立即提交</button>
+            <div lay-submit lay-filter="*">立即提交</div>
+        </form>
+        #分页
+        <div id="pages" class="pages">
+            <a class="a1">93条</a>
+            <a href="">第一页</a>
+            <a href="">上一页</a><span>1</span>
+            <a href="">2</a>
+            <a href="">3</a>
+            <a href="">4</a>
+            <a href="">5</a>
+            <a href="">下一页</a>
+            <a href="">最后一页</a>
+        </div>
+        #客服链接
+        #thisHref           当前窗口跳转
+        #newTableHref       当前窗口跳转
+        #openIframe         iform窗口加载
+        <div data-kefu open-fun='openIframe' data-title='false'>在线客服</div>
+        #复制
+        <button copy-text data-clipboard-text="hello">Copy</button>
+        </main>
+        <footer>
+            <a href="http://www.beian.miit.gov.cn/" target="_blank" class="tcp-ip-info">网站备案号:XXXXXXXXXXX-1</a>
+            <a href="https://www.zoyuan.net/" target="_black">技术支持：陕西卓源网络科技有限公司</a>
+        </footer>
+        <script>
+            NProgress.done();
+        </script>
+    </body>
+</html>

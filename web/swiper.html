@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>网站标题</title>
+    <meta name="description" content="description" />
+    <meta name="keywords" content="keywords" />
+    <link rel="shortcut icon" href="../static/favicon.ico">
+    <link rel="stylesheet" href="../static/lib/animate-3.7.2/animate.min.css?v=3.7.2">
+    <script src="../static/lib/wow-1.0.1/wow.min.js?v=1.0.1"></script>
+    <script type="text/javascript">
+        new WOW().init();
+    </script>
+    <link href="../static/lib/nprogress-0.2.0/nprogress.min.css?v=0.2.0" rel="stylesheet">
+    <script src="../static/lib/nprogress-0.2.0/nprogress.js?v=0.2.0"></script>
+    <link rel="stylesheet" href="../static/lib/layui-2.5.6/css/layui.css?v=2.5.6">
+    <script src="../static/lib/layui-2.5.6/layui.js?v=2.5.6"></script>
+    <script src="../static/lib/jquery-all/jquery-3.2.1/jquery-3.2.1.min.js"></script>
+    <script src="../static/lib/bignumber-8.1.1/bignumber.js?v=8.1.1"></script>
+    <script src="../static/lib/clipboard-2.0.4/clipboard.min.js?v=2.0.4"></script>
+    <link rel="stylesheet" href="../static/lib/swiper-5.3.7/css/swiper.min.css?v=5.3.7">
+    <script src="../static/lib/swiper-5.3.7/js/swiper.min.js?v=5.3.7"></script>
+    <link rel="stylesheet" href="../static/lib/zywl-0.0.1/app.min.css">
+    <link rel="stylesheet" href="../static/lib/mdui-v0.4.3/css/mdui.min.css">
+    <script src="../static/lib/mdui-v0.4.3/js/mdui.min.js"></script>
+    <link rel="stylesheet" href="../static/lib/zui-1.9.1/css/zui.min.css">
+    <script src="../static/lib/zui-1.9.1/js/zui.min.js"></script>
+    <script>
+        const layerConfig = {
+            basePath: '../static/',
+        };
+    </script>
+    <script src="../static/js/index.js"></script>
+    <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            background: #000;
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #000;
+            margin: 0;
+            padding: 0;
+        }
+
+        .group {
+            width: 1000px;
+            height: 800px;
+            margin: 20px auto;
+        }
+
+        .group .swiper-container {
+            width: 100%;
+            height: 300px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .group .swiper-slide {
+            background-size: cover;
+            background-position: center;
+        }
+
+        .group .gallery-top {
+            height: 80%;
+            width: 100%;
+        }
+
+        .group .gallery-thumbs {
+            height: 20%;
+            box-sizing: border-box;
+            padding: 10px 0;
+        }
+
+        .group .gallery-thumbs .swiper-slide {
+            width: 25%;
+            height: 100%;
+            opacity: 0.4;
+
+        }
+
+        .group img {
+            width: 100%;
+        }
+
+        .group .gallery-thumbs .swiper-slide-thumb-active {
+            opacity: 1;
+        }
+  
+    </style>
+</head>
+
+<body>
+    <script>
+        NProgress.start();
+    </script>
+
+    <!-- Swiper -->
+   <div class="group">
+        <div class="swiper-container gallery-top" 
+        site-spaceBetween='10'
+        site-loop 
+        site-loopedSlides='5'
+        site-navigation="{nextEl: '.swiper-button-next',prevEl: '.swiper-button-prev',}"
+        site-thumbs="top-thumb"
+        >
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="../static/index/img/1.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../static/index/img/2.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../static/index/img/3.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../static/index/img/4.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../static/index/img/1.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../static/index/img/2.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../static/index/img/3.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../static/index/img/4.jpg" alt="">
+                </div>
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next swiper-button-white"></div>
+            <div class="swiper-button-prev swiper-button-white"></div>
+        </div>
+        <div class="swiper-container gallery-thumbs" 
+        new-swiper 
+        site-spaceBetween='10'
+        site-slidesPerView="4"
+        site-loop 
+        site-freeMode
+        site-loopedSlides='5'
+        site-watchSlidesVisibility
+        site-watchSlidesProgress
+        site-for-thumbs="top-thumb"
+        >
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="../static/index/img/1.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../static/index/img/2.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../static/index/img/3.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../static/index/img/4.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../static/index/img/1.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../static/index/img/2.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../static/index/img/3.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../static/index/img/4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        // var galleryThumbs = new Swiper('.gallery-thumbs', {
+        //     spaceBetween: 10,
+        //     slidesPerView: 4,
+        //     loop: true,
+        //     freeMode: true,
+        //     loopedSlides: 5, //looped slides should be the same
+        //     watchSlidesVisibility: true,
+        //     watchSlidesProgress: true,
+        // });
+        // var galleryTop = new Swiper('.gallery-top', {
+        //     spaceBetween: 10,
+        //     loop: true,
+        //     loopedSlides: 5, //looped slides should be the same
+        //     navigation: {
+        //         nextEl: '.swiper-button-next',
+        //         prevEl: '.swiper-button-prev',
+        //     },
+        //     thumbs: {
+        //         swiper: galleryThumbs,
+        //     },
+        // });
+    </script>
+    <script>
+        NProgress.done();
+    </script>
+</body>
+
+</html>

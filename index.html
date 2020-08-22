@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>网站标题</title>
+    <meta name="description" content="description" />
+    <meta name="keywords" content="keywords" />
+    <link rel="shortcut icon" href="./static/favicon.ico">
+    <link rel="stylesheet" href="./static/lib/animate-3.7.2/animate.min.css?v=3.7.2">
+    <script src="./static/lib/wow-1.0.1/wow.min.js?v=1.0.1"></script>
+    <link href="./static/lib/nprogress-0.2.0/nprogress.min.css?v=0.2.0" rel="stylesheet">
+    <script src="./static/lib/nprogress-0.2.0/nprogress.js?v=0.2.0"></script>
+    <script src="./static/lib/jquery-all/jquery-3.2.1/jquery-3.2.1.min.js"></script>
+    <link rel="stylesheet" href="./static/lib/layui-2.5.6/css/layui.css?v=2.5.6">
+    <script src="./static/lib/layui-2.5.6/layui.js?v=2.5.6"></script>
+    <script src="./static/lib/bignumber-8.1.1/bignumber.js?v=8.1.1"></script>
+    <script src="./static/lib/clipboard-2.0.4/clipboard.min.js?v=2.0.4"></script>
+    <link rel="stylesheet" href="./static/lib/swiper-5.3.7/css/swiper.min.css?v=5.3.7">
+    <script src="./static/lib/swiper-5.3.7/js/swiper.min.js?v=5.3.7"></script>
+    <link rel="stylesheet" href="./static/lib/zywl-0.0.1/app.min.css">
+    <link rel="stylesheet" href="./static/lib/mdui-v0.4.3/css/mdui.min.css">
+    <script src="./static/lib/mdui-v0.4.3/js/mdui.min.js"></script>
+    <link rel="stylesheet" href="./static/lib/zui-1.9.1/css/zui.min.css">
+    <script src="./static/lib/zui-1.9.1/js/zui.min.js"></script>
+    <script>
+        const layerConfig = {
+            basePath: './static/',
+        };
+    </script>
+</head>
+<style>
+    .layui-code-view {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+</style>
+
+<body>
+    <script type="text/javascript">
+        NProgress.start();
+    </script>
+    <pre>
+1、Logo必须需用h1标签包住
+2、非必要不要引入jQuery,直接去./static/js/control/index.js 里面去处理
+3、js务必放到./static/js/control/index.js 或新增的模块中
+4、自定义属性 data-href="url" 为js控制跳转链接地址，已定义鼠标样式
+5、自定义客服按钮功能
+6、导航下的图片必须是Banner切换同时图片必须带链接跳转 务必用a标签包住:PS(<a href="javascript:;"><img src="https://www.zoyuan.net/static/img/logo.png" alt="logo"></a>)
+7、整个页面尽量避免出现p、span、strong、i、b、em、center、font、br、hr标签的使用，如果必要，务必定义单独的class名
+8、静态资源引入请务必使用./static/xxx.xxx
+9、与UI对接明确动画效果、明确返回顶部、明确首页新闻右侧是否有查看更多、明确内页banner是否切换
+<!------------------------------------------------------html 模板--------------------------------------------------------->
+[!DOCTYPE html]
+[html lang="en"]
+    [head]
+        [meta charset="UTF-8"]
+        [meta name="viewport" content="width=device-width, initial-scale=1"]
+        [meta http-equiv="X-UA-Compatible" content="ie=edge"]
+        [title]网站标题[/title]
+        [meta name="description" content="description" /]
+        [meta name="keywords" content="keywords" /]
+        [link rel="shortcut icon" href="./static/favicon.ico"]
+        [link rel="stylesheet" href="./static/lib/animate-3.7.2/animate.min.css?v=3.7.2"]
+        [script src="./static/lib/wow-1.0.1/wow.min.js?v=1.0.1"][/script]
+        [script type="text/javascript"]
+            new WOW().init();
+        [/script]
+        [link href="./static/lib/nprogress-0.2.0/nprogress.min.css?v=0.2.0" rel="stylesheet"]
+        [script src="./static/lib/nprogress-0.2.0/nprogress.js?v=0.2.0"][/script]
+        [link rel="stylesheet" href="./static/lib/layui-2.5.6/css/layui.css?v=2.5.6"]
+        [script src="./static/lib/layui-2.5.6/layui.js?v=2.5.6"][/script]
+        [script src="../static/lib/jquery-all/jquery-3.2.1/jquery-3.2.1.min.js"][/script]
+        [script src="./static/lib/bignumber-8.1.1/bignumber.js?v=8.1.1"][/script]
+        [script src="./static/lib/clipboard-2.0.4/clipboard.min.js?v=2.0.4"][/script]
+        [link rel="stylesheet" href="./static/lib/swiper-5.3.7/css/swiper.min.css?v=5.3.7"]
+        [script src="./static/lib/swiper-5.3.7/js/swiper.min.js?v=5.3.7"][/script]
+        [link rel="stylesheet" href="./static/lib/zywl-0.0.1/app.min.css"]
+        [link rel="stylesheet" href="./static/lib/mdui-v0.4.3/css/mdui.min.css"]
+        [script src="./static/lib/mdui-v0.4.3/js/mdui.min.js"][/script]
+        [link rel="stylesheet" href="./static/lib/zui-1.9.1/css/zui.min.css"]
+        [script src="./static/lib/zui-1.9.1/js/zui.min.js"][/script]
+        [script]
+            const layerConfig = {
+                basePath: './static/',
+            };
+        [/script]
+        [script src="./static/js/index.js"][/script]
+    [/head]
+    [body]
+        [script]
+            NProgress.start();
+        [/script]
+        [header]
+            [h1]
+                [a href="javascript:;"]
+                    [img src="https://www.zoyuan.net/static/img/logo.png" alt="logo"]
+                [/a]
+            [/h1]
+        [/header]
+        [main]
+        #swiper
+        [banner]
+        [div class="swiper"]
+            [div class="swiper-container"]
+                [div class="swiper-wrapper"]
+                    [div class="swiper-slide"]
+                        [img src="http://www.landegd.com/Uploads/202004/5e9ec670ac4a7.png"]
+                    [/div]
+                    [div class="swiper-slide"]
+                        [img src="http://www.landegd.com/Uploads/202004/5e97fe7a0a447.png"]
+                    [/div]
+                    [div class="swiper-slide"]
+                        [img src="http://www.landegd.com/Uploads/202004/5e97feca7b48a.png"]
+                    [/div]
+                [/div]
+            [/div]
+            #如果需要导航按钮
+            [div class="swiper-button-prev prev1"][/div]
+            [div class="swiper-button-next next1"][/div]
+        [/div>
+        [/banner]
+        #表单
+        [form class="layui-form"]
+            [input type="text" name="c_user" placeholder="输入您的姓名"]
+            [input type="text" name="c_phone" lay-verify="required|phone" lay-title="手机号" placeholder="输入您的手机号"]
+            #立即提交的三种可选项
+            [a href="javascript:;" lay-submit lay-filter="*"]立即提交[/a]
+            [button type="button" lay-submit lay-filter="*"]立即提交[/button]
+            [div lay-submit lay-filter="*"]立即提交[/div]
+        [/form]
+        #分页
+        [div id="pages" class="pages"]
+            [a class="a1"]93条[/a]
+            [a href=""]第一页[/a]
+            [a href=""]上一页[/a][span]1[/span]
+            [a href=""]2[/a]
+            [a href=""]3[/a]
+            [a href=""]4[/a]
+            [a href=""]5[/a]
+            [a href=""]下一页[/a]
+            [a href=""]最后一页[/a]
+        [/div]
+        #客服链接
+        #thisHref           当前窗口跳转
+        #newTableHref       当前窗口跳转
+        #openIframe         iform窗口加载
+        [div data-kefu open-fun='openIframe' data-title='false']在线客服[/div]
+        #复制
+        [button copy-text data-clipboard-text="hello"]Copy[/button]
+        [/main]
+        [footer]
+            [a href="http://www.beian.miit.gov.cn/" target="_blank" class="tcp-ip-info"]网站备案号:XXXXXXXXXXX-1[/a]
+            [a href="https://www.zoyuan.net/" target="_black"]技术支持：陕西卓源网络科技有限公司[/a]
+        [/footer]
+        [script]
+            NProgress.done();
+        [/script]
+    [/body]
+[/html]
+<!------------------------------------------------------html 模板---------------------------------------------------------></pre>
+    <script src="./static/js/index.js"></script>
+    <script>
+        layui.use(['code'], function () {
+            layui.code({
+                elem: 'pre',
+                encode: true,
+            });
+        });
+    </script>
+</body>
+<script>
+    NProgress.done();
+</script>
+
+</html>

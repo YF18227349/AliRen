@@ -1,0 +1,367 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer,
+section,
+article,
+aside,
+nav,
+hgroup,
+address,
+figure,
+figcaption,
+menu,
+details {
+    display: block;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption,
+th {
+    text-align: left;
+    font-weight: normal;
+}
+
+html,
+body,
+fieldset,
+img,
+iframe,
+abbr {
+    border: 0;
+}
+
+i,
+cite,
+em,
+var,
+address,
+dfn {
+    font-style: normal;
+}
+
+[hidefocus],
+summary {
+    outline: 0;
+}
+
+li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small {
+    font-size: 100%;
+}
+
+sup,
+sub {
+    font-size: 83%;
+}
+
+pre,
+code,
+kbd,
+samp {
+    font-family: "微软雅黑";
+}
+
+q:before,
+q:after {
+    content: none;
+}
+
+textarea {
+    overflow: auto;
+    resize: none;
+    width: 100%;
+}
+
+label,
+summary {
+    cursor: default;
+}
+
+a,
+button,
+[lay-submit],
+[zy-href],
+[zy-kefu],
+[return-top],
+[href],
+[hover] {
+    cursor: pointer;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+em,
+strong,
+b {
+    font-weight: bold;
+}
+
+del,
+ins,
+u,
+s,
+a,
+a:hover {
+    text-decoration: none;
+}
+
+body,
+textarea,
+input,
+button,
+select,
+keygen,
+legend {
+    font-family: "微软雅黑";
+    // font: 12px/1.14 arial, \5b8b\4f53;
+    color: #333;
+    outline: 0;
+}
+
+body {
+    background: #fff;
+}
+
+a,
+a:hover {
+    color: #333
+}
+
+a,
+a:hover,
+a:after,
+a:active,
+a:link {
+    text-decoration: none !important;
+}
+
+input {
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input::-webkit-input-placeholder {
+    font-size: .22rem;
+}
+
+input:-moz-placeholder {
+    font-size: .22rem;
+}
+
+input::-moz-placeholder {
+    font-size: .22rem;
+}
+
+input:-ms-input-placeholder {
+    font-size: .22rem;
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: #f8f8f8;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-button:vertical {
+    display: none;
+}
+
+::-webkit-scrollbar-track,
+::-webkit-scrollbar-corner {
+    background-color: #e2e2e2;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #dddddd;
+    background-clip: padding-box;
+    min-height: 28px;
+    border-radius: 0;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #bbb;
+}
+
+::-webkit-scrollbar-thumb:vertical:hover {
+    background-color: rgba(0, 0, 0, .35);
+}
+
+::-webkit-scrollbar-thumb:vertical:active {
+    background-color: rgba(0, 0, 0, .38);
+}
+
+.fl,
+.f-fl {
+    float: left !important;
+}
+
+
+.fr,
+.f-fr {
+    float: right !important;
+}
+
+.tc,
+.text-c {
+    text-align: center !important;
+}
+
+.tr,
+.text-r {
+    text-align: right !important;
+}
+
+.tl,
+.text-l {
+    text-align: left !important;
+}
+
+.ma,
+.mg-0 {
+    margin: 0 !important;
+}
+
+.df {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.p-fixed {
+    position: fixed;
+}
+
+.p-absolute {
+    position: absolute;
+}
+
+.fw {
+    font-weight: bold;
+}
+
+.fw-6 {
+    font-weight: 600;
+}
+
+.fw-7 {
+    font-weight: 700;
+}
+
+.fw-8 {
+    font-weight: 800;
+}
+
+.fc-3,
+.fc-3:hover {
+    color: #333 !important;
+}
+
+.fc-4,
+.fc-4:hover {
+    color: #444 !important;
+}
+
+.fc-6,
+.fc-6:hover {
+    color: #666 !important;
+}
+
+.fc-white,
+.fc-white:hover {
+    color: #fff !important;
+}
+
+.fc-green,
+.fc-green:hover {
+    color: #24a35c !important;
+}
+
+.fc-blue,
+.fc-blue:hover {
+    color: #2a85d3 !important;
+}
+
+.fc-yellow,
+.fc-yellow:hover {
+    color: #f8bb00 !important;
+}
+
+.bg-white {
+    background: #fff !important;
+}
+
+.bg-black {
+    background: #000 !important;
+}
+
+.bg-1b {
+    background: #1b1b1b !important;
+}
+
+.bg-blue {
+    background: #2a85d3 !important;
+}
+
+.bg-green {
+    background: #f8bb00 !important;
+}
+
+.bg-yellow {
+    background: #f8bb00 !important;
+}
+
+.bg-red {
+    background: red !important;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}

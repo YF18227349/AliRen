@@ -1,0 +1,205 @@
+﻿@import "./init.scss";
+.butani {
+    position: relative;
+    animation: butAnimation001 1s infinite linear;
+    animation-direction: alternate;
+    -webkit-animation: butAnimation001 1s infinite linear;
+    -webkit-animation-direction: alternate;
+}
+
+@keyframes butAnimation001 {
+    0% {
+        transform: scale(1.02);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.02);
+    }
+}
+
+@-webkit-keyframes butAnimation001 {
+
+    /* Safari and Chrome */
+    0% {
+        transform: scale(1.02);
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.02);
+    }
+}
+
+$dian:".";
+$baifen:"%";
+
+@for $i from 1 through 100 {
+    .w-#{$i} {
+        width:#{$i}#{$baifen} !important;
+    }
+}
+
+@for $i from 1 through 12 {
+    .ww-12-#{$i} {
+        width:(100/12)*$i#{$baifen};
+    }
+}
+
+@for $i from 1 through 15 {
+    .ww-15-#{$i} {
+        width:(100/15)*$i#{$baifen};
+    }
+}
+
+@for $i from 1 through 24 {
+    .ww-24-#{$i} {
+        width:(100/24)*$i#{$baifen};
+    }
+}
+
+@for $i from 1 through 25 {
+    .ww-25-#{$i} {
+        width:(100/25)*$i#{$baifen};
+    }
+}
+
+@for $i from 0 through 1000 {
+    .zy-h-#{$i}-px {
+        height:#{$i}px !important;
+    }
+
+    .p-top-#{$i}-px {
+        top:#{$i}px !important;
+    }
+
+    .p-left-#{$i}-px {
+        left:#{$i}px !important;
+    }
+
+    .p-right-#{$i}-px {
+        right:#{$i}px !important;
+    }
+
+    .p-bottom-#{$i}-px {
+        bottom:#{$i}px !important;
+    }
+}
+
+@for $i from 0 through 100 {
+    .zy-h-#{$i} {
+        height:#{$i}#{$baifen} !important;
+    }
+
+    .p-top-#{$i} {
+        top:#{$i}#{$baifen} !important;
+    }
+
+    .p-left-#{$i} {
+        left:#{$i}#{$baifen} !important;
+    }
+
+    .p-right-#{$i} {
+        right:#{$i}#{$baifen} !important;
+    }
+
+    .p-bottom-#{$i} {
+        bottom:#{$i}#{$baifen} !important;
+    }
+}
+
+/* 横屏 */
+@media screen and (orientation:landscape) {
+    .bg-red {
+        background: #ffffff !important;
+    }
+}
+
+/* 竖屏 */
+@media screen and (orientation:portrait) {
+    .bg-red {
+        background: #ffffff !important;
+    }
+}
+
+/*当页面大于1200px 时，大屏幕，主要是PC 端*/
+@media (min-width:1200px) {
+    .w1200 {
+        width: 1200px;
+    }
+    .bg-red {
+        background: #ffffff !important;
+    }
+    @import "./web.scss";
+}
+
+/*在960 和1199 像素之间的屏幕里，中等屏幕，分辨率低的PC*/
+@media (min-width:960px) and (max-width:1199px) {
+
+    @import "./web.scss";
+    .bg-red {
+        background: #ffffff !important;
+    }
+}
+
+/* 窗口宽度<960,设计宽度=768 */
+/*在768 和991 像素之间的屏幕里，小屏幕，主要是PAD*/
+@media screen and (max-width:959px) {
+
+    @import "./wap.scss";
+    .bg-red {
+        background: #ffffff !important;
+    }
+}
+
+/*在480 和767 像素之间的屏幕里，超小屏幕，主要是手机*/
+@media (min-width:480px) and (max-width:767px) {
+
+    @import "./wap.scss";
+    .bg-red {
+        background: #ffffff !important;
+    }
+}
+
+/* 窗口宽度<768,设计宽度=640 */
+@media screen and (max-width:767px) {
+    .bg-red {
+        background: #ffffff !important;
+    }
+}
+
+/* 窗口宽度<640,设计宽度=480 */
+@media screen and (max-width:639px) {
+    .bg-red {
+        background: #ffffff !important;
+    }
+}
+
+/* 窗口宽度<480,设计宽度=320 */
+/*在小于480 像素的屏幕，微小屏幕，更低分辨率的手机*/
+@media screen and (max-width:479px) {
+    .bg-red {
+        background: #ffffff !important;
+    }
+}
+
+/* windows UI 贴靠 */
+@media screen and (-ms-view-state:snapped) {
+    .bg-red {
+        background: #ffffff !important;
+    }
+}
+
+/* 打印 */
+@media print {
+
+    .bg-red {
+        background: #ffffff !important;
+    }
+}

@@ -1,0 +1,73 @@
+$pcMaxNum:100;
+
+@for $i from 0 through 1000 {
+    .zy-h-#{$i} {
+        height:#{$i}px !important;
+    }
+
+    .p-top-#{$i} {
+        top:#{$i}px !important;
+    }
+
+    .p-left-#{$i} {
+        left:#{$i}px !important;
+    }
+
+    .p-right-#{$i} {
+        right:#{$i}px !important;
+    }
+
+    .p-bottom-#{$i} {
+        bottom:#{$i}px !important;
+    }
+}
+
+@for $i from 1 through $pcMaxNum {
+    .mt-#{$i} {
+        margin-top:#{$i}px;
+    }
+
+    .mb-#{$i} {
+        margin-bottom:#{$i}px;
+    }
+
+    .ml-#{$i} {
+        margin-left:#{$i}px;
+    }
+
+    .mr-#{$i} {
+        margin-right:#{$i}px;
+    }
+
+    .ma-#{$i} {
+        margin:#{$i}px 0;
+    }
+
+    .pt-#{$i} {
+        padding-top:#{$i}px;
+    }
+
+    .pb-#{$i} {
+        padding-bottom:#{$i}px;
+    }
+
+    .pl-#{$i} {
+        padding-left:#{$i}px;
+    }
+
+    .pr-#{$i} {
+        padding-right:#{$i}px;
+    }
+
+    .pd-#{$i} {
+        padding:#{$i}px 0;
+    }
+}
+
+$list:12 14 16 18 20 22 24;
+
+@each $r in $list {
+    .fs-#{$r} {
+        font-size:#{$r}px;
+    }
+}
