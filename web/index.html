@@ -68,97 +68,97 @@
                 >
                 </div>
             </div>
-        <div class="showNumber">
-            <ul class="clearfix" style="font-size: 50px;">
-                <li class="fl">
-                    <p><i initPurNumber plus-difference="30" plus-end="2001">2001</i>年</p>
-                </li>
-                <li class="fl">
-                    <p><i initPurNumber plus-difference="30" plus-end="50000">50000</i>件</p>
-                </li>
-                <li class="fl">
-                    <p><i initPurNumber plus-difference="30" plus-end="10000">10000</i>方</p>
-                </li>
-            </ul>
-        </div>
-        
-        #swiper
-        <banner>
-        <div class="swiper">
-            <div class="swiper-container" 
-            new-swiper
-            site-loop
-            site-pagination="{el: '.pagination1'}"
-            >
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="http://www.landegd.com/Uploads/202004/5e9ec670ac4a7.png">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="http://www.landegd.com/Uploads/202004/5e97fe7a0a447.png">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="http://www.landegd.com/Uploads/202004/5e97feca7b48a.png">
+            <div class="showNumber">
+                <ul class="clearfix" style="font-size: 50px;">
+                    <li class="fl">
+                        <p><i initPurNumber plus-difference="30" plus-end="2001">2001</i>年</p>
+                    </li>
+                    <li class="fl">
+                        <p><i initPurNumber plus-difference="30" plus-end="50000">50000</i>件</p>
+                    </li>
+                    <li class="fl">
+                        <p><i initPurNumber plus-difference="30" plus-end="10000">10000</i>方</p>
+                    </li>
+                </ul>
+            </div>
+            
+            #swiper
+            <banner>
+            <div class="swiper">
+                <div class="swiper-container" 
+                new-swiper
+                site-loop
+                site-pagination="{el: '.pagination1'}"
+                >
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="http://www.landegd.com/Uploads/202004/5e9ec670ac4a7.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="http://www.landegd.com/Uploads/202004/5e97fe7a0a447.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="http://www.landegd.com/Uploads/202004/5e97feca7b48a.png">
+                        </div>
                     </div>
                 </div>
+                #如果需要导航按钮
+                <!-- <div class="swiper-button-prev prev1"></div> -->
+                <!-- <div class="swiper-button-next next1"></div> -->
+                <!-- <div class="swiper-pagination pagination1"></div> -->
             </div>
-            #如果需要导航按钮
-            <!-- <div class="swiper-button-prev prev1"></div> -->
-            <!-- <div class="swiper-button-next next1"></div> -->
-            <!-- <div class="swiper-pagination pagination1"></div> -->
-        </div>
-        <div class="swiper">
-            <div class="swiper-container" 
-            new-swiper
-            site-loop
-            site-pagination="{el: '.pagination2'}"
-            >
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <img src="http://www.landegd.com/Uploads/202004/5e9ec670ac4a7.png">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="http://www.landegd.com/Uploads/202004/5e97fe7a0a447.png">
-                    </div>
-                    <div class="swiper-slide">
-                        <img src="http://www.landegd.com/Uploads/202004/5e97feca7b48a.png">
+            <div class="swiper">
+                <div class="swiper-container" 
+                new-swiper
+                site-loop
+                site-pagination="{el: '.pagination2'}"
+                >
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="http://www.landegd.com/Uploads/202004/5e9ec670ac4a7.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="http://www.landegd.com/Uploads/202004/5e97fe7a0a447.png">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="http://www.landegd.com/Uploads/202004/5e97feca7b48a.png">
+                        </div>
                     </div>
                 </div>
+                #如果需要导航按钮
+                <!-- <div class="swiper-button-prev prev1"></div> -->
+                <!-- <div class="swiper-button-next next1"></div> -->
+                <!-- <div class="swiper-pagination pagination2"></div> -->
             </div>
-            #如果需要导航按钮
-            <!-- <div class="swiper-button-prev prev1"></div> -->
-            <!-- <div class="swiper-button-next next1"></div> -->
-            <!-- <div class="swiper-pagination pagination2"></div> -->
-        </div>
-        </banner>
-        #表单
-        <form class="layui-form">
-            <input type="text" name="c_user" placeholder="输入您的姓名">
-            <input type="text" name="c_phone" lay-verify="required|phone" lay-title="手机号" placeholder="输入您的手机号">
-            #立即提交的三种可选项
-            <a href="javascript:;" lay-submit lay-filter="*">立即提交</a>
-            <button type="button" lay-submit lay-filter="*">立即提交</button>
-            <div lay-submit lay-filter="*">立即提交</div>
-        </form>
-        #分页
-        <div id="pages" class="pages">
-            <a class="a1">93条</a>
-            <a href="">第一页</a>
-            <a href="">上一页</a><span>1</span>
-            <a href="">2</a>
-            <a href="">3</a>
-            <a href="">4</a>
-            <a href="">5</a>
-            <a href="">下一页</a>
-            <a href="">最后一页</a>
-        </div>
-        #客服链接
-        #thisHref           当前窗口跳转
-        #newTableHref       当前窗口跳转
-        #openIframe         iform窗口加载
-        <div data-kefu open-fun='openIframe' data-title='false'>在线客服</div>
-        #复制
-        <button copy-text data-clipboard-text="hello">Copy</button>
+            </banner>
+            #表单
+            <form class="layui-form">
+                <input type="text" name="c_user" placeholder="输入您的姓名">
+                <input type="text" name="c_phone" lay-verify="required|phone" lay-title="手机号" placeholder="输入您的手机号">
+                #立即提交的三种可选项
+                <a href="javascript:;" lay-submit lay-filter="*">立即提交</a>
+                <button type="button" lay-submit lay-filter="*">立即提交</button>
+                <div lay-submit lay-filter="*">立即提交</div>
+            </form>
+            #分页
+            <div id="pages" class="pages">
+                <a class="a1">93条</a>
+                <a href="">第一页</a>
+                <a href="">上一页</a><span>1</span>
+                <a href="">2</a>
+                <a href="">3</a>
+                <a href="">4</a>
+                <a href="">5</a>
+                <a href="">下一页</a>
+                <a href="">最后一页</a>
+            </div>
+            #客服链接
+            #thisHref           当前窗口跳转
+            #newTableHref       当前窗口跳转
+            #openIframe         iform窗口加载
+            <div data-kefu open-fun='openIframe' data-title='false'>在线客服</div>
+            #复制
+            <button copy-text data-clipboard-text="hello">Copy</button>
         </main>
         <footer>
             <a href="http://www.beian.miit.gov.cn/" target="_blank" class="tcp-ip-info">网站备案号:XXXXXXXXXXX-1</a>

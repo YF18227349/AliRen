@@ -1,113 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>联系我们</title>
-    <meta name="description" content="description" />
-    <meta name="keywords" content="keywords" />
-    <link rel="shortcut icon" href="../static/favicon.ico">
-    <link rel="stylesheet" href="../static/lib/animate-3.7.2/animate.min.css?v=3.7.2">
-    <script src="../static/lib/wow-1.0.1/wow.min.js?v=1.0.1"></script>
-    <link href="../static/lib/nprogress-0.2.0/nprogress.min.css?v=0.2.0" rel="stylesheet">
-    <script src="../static/lib/nprogress-0.2.0/nprogress.js?v=0.2.0"></script>
-    <link rel="stylesheet" href="../static/lib/layui-2.5.6/css/layui.css?v=2.5.6">
-    <script src="../static/lib/layui-2.5.6/layui.js?v=2.5.6"></script>
-    <script src="../static/lib/jquery-all/jquery-3.2.1/jquery-3.2.1.min.js"></script>
-    <script src="../static/lib/bignumber-8.1.1/bignumber.js?v=8.1.1"></script>
-    <script src="../static/lib/clipboard-2.0.4/clipboard.min.js?v=2.0.4"></script>
-    <link rel="stylesheet" href="../static/lib/swiper-5.3.7/css/swiper.min.css?v=5.3.7">
-    <script src="../static/lib/swiper-5.3.7/js/swiper.min.js?v=5.3.7"></script>
-    <link rel="stylesheet" href="../static/lib/zywl-0.0.1/app.min.css">
-    <link rel="stylesheet" href="../static/lib/mdui-v0.4.3/css/mdui.min.css">
-    <script src="../static/lib/mdui-v0.4.3/js/mdui.min.js"></script>
-    <link rel="stylesheet" href="../static/lib/zui-1.9.1/css/zui.min.css">
-    <script src="../static/lib/zui-1.9.1/js/zui.min.js"></script>
-    <script src="../static/lib/rem.js"></script>
-    <link rel="stylesheet" href="../static/index/css/wapScss.min.css">
-    <script>
-        const layerConfig = {
-            basePath: '../static/',
-        };
-    </script>
-    <script src="../static/js/index.js"></script>
-</head>
-
-<body>
-    <script>
-        NProgress.start();
-    </script>
-    <header>
-        <div class="header">
-            <div class="header_con clearfix">
-                <h1><a href="javascript:;"><img class="logo fl" src="../static/index/img/wap/logo.png" alt=""></a></h1>
-                <div class="menu fr">
-                    <div menu-toggle class="img-wrap">
-                        <img src="../static/index/img/wap/menu.png" alt="">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>网站标题</title>
+        <meta name="description" content="description" />
+        <meta name="keywords" content="keywords" />
+		<link rel="shortcut icon" href="../static/favicon.ico">
+		<script src="../static/lib/other/rem.js"></script>
+        <link rel="stylesheet" href="../static/lib/animate-3.7.2/animate.min.css?v=3.7.2">
+        <script src="../static/lib/wow-1.0.1/wow.min.js?v=1.0.1"></script>
+        <script type="text/javascript">
+            new WOW().init();
+        </script>
+        <link href="../static/lib/nprogress-0.2.0/nprogress.min.css?v=0.2.0" rel="stylesheet">
+        <script src="../static/lib/nprogress-0.2.0/nprogress.js?v=0.2.0"></script>
+        <link rel="stylesheet" href="../static/lib/layui-2.5.6/css/layui.css?v=2.5.6">
+        <script src="../static/lib/layui-2.5.6/layui.js?v=2.5.6"></script>
+        <script src="../static/lib/jquery-all/jquery-3.2.1/jquery-3.2.1.min.js"></script>
+        <script src="../static/lib/bignumber-8.1.1/bignumber.js?v=8.1.1"></script>
+        <script src="../static/lib/clipboard-2.0.4/clipboard.min.js?v=2.0.4"></script>
+        <link rel="stylesheet" href="../static/lib/swiper-5.3.7/css/swiper.min.css?v=5.3.7">
+        <script src="../static/lib/swiper-5.3.7/js/swiper.min.js?v=5.3.7"></script>
+        <link rel="stylesheet" href="../static/lib/zywl-0.0.1/app.min.css">
+        <link rel="stylesheet" href="../static/lib/mdui-v0.4.3/css/mdui.min.css">
+        <script src="../static/lib/mdui-v0.4.3/js/mdui.min.js"></script>
+        <link rel="stylesheet" href="../static/lib/zui-1.9.1/css/zui.min.css">
+        <script src="../static/lib/zui-1.9.1/js/zui.min.js"></script>
+        <script src="../static/lib/rem.js"></script>
+		<!-- <link rel="stylesheet" href="../static/index/css/webLess.css"> -->
+        <link rel="stylesheet" href="../static/index/css/wapScss.min.css">
+        <script>
+            const layerConfig = {
+                basePath: '../static/',
+            };
+        </script>
+        <script src="../static/js/index.js"></script>
+    </head>
+    <body>
+        <script>
+            NProgress.start();
+        </script>
+        <header>
+            <!-- Logo -->
+            <div class="header">
+                <div class="header_con clearfix">
+                    <h1><a href="javascript:;"><img class="logo fl" src="../static/index/img/wap/logo.png" alt=""></a></h1>
+                    <div class="menu fr">
+                        <div menu-toggle class="img-wrap">
+                            <img src="../static/index/img/wap/menu.png" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="main-banner">
-            <div class="swiper">
-                <div class="swiper-container swiper-container-main">
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <img class="banner-img" src="../static/index/img/wap/banner1.png">
+            <!-- banner轮播 -->
+            <div class="main-banner">
+                <div class="swiper">
+                    <div class="swiper-container swiper-container-main">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img class="banner-img" src="../static/index/img/wap/banner1.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="banner-img" src="../static/index/img/wap/banner1.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img class="banner-img" src="../static/index/img/wap/banner1.png">
+                            </div>
                         </div>
-                        <div class="swiper-slide">
-                            <img class="banner-img" src="../static/index/img/wap/banner1.png">
-                        </div>
-                        <div class="swiper-slide">
-                            <img class="banner-img" src="../static/index/img/wap/banner1.png">
-                        </div>
+                        <div class="swiper-pagination pagination-main"></div>
                     </div>
-                    <div class="swiper-pagination pagination-main"></div>
                 </div>
             </div>
-        </div>
-    </header>
-    <nav>
-        <div class="mdui-drawer mdui-drawer-right" id="drawer">
-            <ul class="mdui-list">
-                <li><a href="home.html">首页</a></li>
-                <li><a href="productCenter.html">产品中心</a></li>
-                <li><a href="aboutUs.html">关于我们</a></li>
-                <li><a href="news.html">新闻资讯</a></li>
-                <li class="active"><a href="contactUs.html">联系我们</a></li>
+        </header>
+        <!-- 菜单 -->
+        <nav>
+            <div class="mdui-drawer mdui-drawer-right" id="drawer">
+                <ul class="mdui-list">
+                    <li><a href="home.html">首页</a></li>
+                    <li><a href="productCenter.html">产品中心</a></li>
+                    <li><a href="aboutUs.html">关于我们</a></li>
+                    <li><a href="news.html">新闻资讯</a></li>
+                    <li class="active"><a href="contactUs.html">联系我们</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="contactUs">
+            <div class="img-wrap">
+                <img src="../static/index/img/wap/QRcode.png" alt="">
+            </div>
+            <div class="tel">
+                <img src="../static/index/img/wap/foot_phone.png" alt="">
+                <p>400-029-1812</p>
+            </div>
+            <ul>
+                <li>办公电话：029-86184305</li>
+                <li>联系电话：18009227742</li>
+                <li>
+                    <span>公司地址：</span>
+                    <p>陕西省西咸新区泾河新城华晨大道泾干四街东段</p>
+                </li>
             </ul>
+            <div class="btn_wrap">
+                <a href="#">
+                    <div class="btna butani">一键拨号</div>
+                </a>
+                <a href="#">
+                    <div class="btnb butani">一键导航</div>
+                </a>
+            </div>
         </div>
-    </nav>
-    <main class="main contactUs">
-        <div class="img-wrap">
-            <img src="../static/index/img/wap/QRcode.png" alt="">
-        </div>
-        <div class="tel">
-            <img src="../static/index/img/wap/foot_phone.png" alt="">
-            <p>400-029-1812</p>
-        </div>
-        <ul>
-            <li>办公电话：029-86184305</li>
-            <li>联系电话：18009227742</li>
-            <li>
-                <span>公司地址：</span>
-                <p>陕西省西咸新区泾河新城华晨大道泾干四街东段</p>
-            </li>
-        </ul>
-        <div class="btn_wrap">
-            <a href="#">
-                <div class="btna butani">一键拨号</div>
-            </a>
-            <a href="#">
-                <div class="btnb butani">一键导航</div>
-            </a>
-    </div>
-    </main>
-    <script>
-        NProgress.done();
-    </script>
-</body>
-
+        <!-- 底部footer -->
+        <footer>
+            <ul class="fott_title">
+                <a href="home.html">
+                    <li>
+                        <p>首页</p>
+                        <img src="../static/index/img/next.png" alt="">
+                    </li>
+                </a>
+                <a href="productCenter.html">
+                    <li>
+                        <p>产品中心</p>
+                        <img src="../static/index/img/next.png" alt="">
+                    </li>
+                </a>
+                <a href="aboutUs.html">
+                    <li>
+                        <p>关于我们</p>
+                        <img src="../static/index/img/next.png" alt="">
+                    </li>
+                </a>
+                <a href="news.html">
+                    <li>
+                        <p>新闻资讯</p>
+                        <img src="../static/index/img/next.png" alt="">
+                    </li>
+                </a>
+                <a href="contactUs.html">
+                    <li>
+                        <p>联系我们</p>
+                        <img src="../static/index/img/next.png" alt="">
+                    </li>
+                </a>
+            </ul>
+            <div class="fot">
+                <div class="QRcode">
+                    <img src="../Static/index/img/wap/QRcode.png" alt="">
+                </div>
+                <div class="right-info">
+                    <div class="tel">
+                        <img src="../static/index/img/wap/foot_phone.png" alt="">
+                        <span>400-029-1812</span>
+                    </div>
+                    <ul>
+                        <li>
+                            <div class="rendizi clearfix">
+                                <i>办公电话：</i>
+                                <div class="item">029-86184305</div>
+                            </div>
+                            <div class="rendizi clearfix">
+                                <i> 联系电话：</i>
+                                <div class="item">18009227742</div>
+                            </div>
+                            <div class="rendizi address clearfix">
+                                <div class="item">
+                                    公司地址：陕西省西咸新区泾河新城华晨大道泾干四街东段
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="standBy-info">
+                <p>网站备案号：陕ICP备20009666 </p>
+                <p>技术支持：阿里人品牌运营管理（陕西）有限公司</p>
+            </div>
+            <div zy-top class="return_top">
+                <img src="../static/index/img/returntop.png" alt="回顶部">
+            </div>
+        </footer>
+        <script>
+            NProgress.done();
+        </script>
+    </body>
 </html>
