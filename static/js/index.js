@@ -8,7 +8,9 @@ layui.config({
     showNumber: 'extend/showNumber', //数字抖动
     swiperExt: 'extend/swiperExt', //初始化轮播图
     initMapExt: 'extend/initMapExt', //初始化百度地图
-}).use(['jquery', 'element', 'fun', 'InitApp', 'formCheckExt', 'showNumber', 'swiperExt', 'initMapExt'], function (exports) {
+    webHome: 'index/webHome', //初始化百度地图
+    webYU: 'index/webyu', //初始化百度地图
+}).use(['jquery', 'element', 'fun', 'InitApp', 'formCheckExt', 'showNumber', 'swiperExt', 'initMapExt', 'webHome','webYU'], function (exports) {
     let fun = layui.fun;
     //将模块根路径设置为 controller 目录
     layui.config({
@@ -20,6 +22,8 @@ layui.config({
     layui.use('showNumber');
     layui.use('swiperExt');
     layui.use('initMapExt');
+    layui.use('webHome');
+    layui.use('webYU');
     let UA = fun.initWebSite().type;
     switch (UA) {
         case 'pc':

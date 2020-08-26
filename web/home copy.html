@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>首页</title>
+    <meta name="description" content="description" />
+    <meta name="keywords" content="keywords" />
+    <link rel="shortcut icon" href="../static/favicon.ico">
+    <link rel="stylesheet" href="../static/lib/animate-3.7.2/animate.min.css?v=3.7.2">
+    <script src="../static/lib/wow-1.0.1/wow.min.js?v=1.0.1"></script>
+    <link href="../static/lib/nprogress-0.2.0/nprogress.min.css?v=0.2.0" rel="stylesheet">
+    <script src="../static/lib/nprogress-0.2.0/nprogress.js?v=0.2.0"></script>
+    <link rel="stylesheet" href="../static/lib/layui-2.5.6/css/layui.css?v=2.5.6">
+    <script src="../static/lib/layui-2.5.6/layui.js?v=2.5.6"></script>
+    <script src="../static/lib/jquery-all/jquery-3.2.1/jquery-3.2.1.min.js"></script>
+    <script src="../static/lib/bignumber-8.1.1/bignumber.js?v=8.1.1"></script>
+    <script src="../static/lib/clipboard-2.0.4/clipboard.min.js?v=2.0.4"></script>
+    <link rel="stylesheet" href="../static/lib/swiper-5.3.7/css/swiper.min.css?v=5.3.7">
+    <script src="../static/lib/swiper-5.3.7/js/swiper.min.js?v=5.3.7"></script>
+    <link rel="stylesheet" href="../static/lib/zywl-0.0.1/app.min.css">
+    <link rel="stylesheet" href="../static/lib/mdui-v0.4.3/css/mdui.min.css">
+    <script src="../static/lib/mdui-v0.4.3/js/mdui.min.js"></script>
+    <link rel="stylesheet" href="../static/lib/zui-1.9.1/css/zui.min.css">
+    <script src="../static/lib/zui-1.9.1/js/zui.min.js"></script>
+    <link rel="stylesheet" href="../static/index/css/webScss.min.css">
+    <script>
+        const layerConfig = {
+            basePath: '../static/',
+        };
+    </script>
+    <script src="../static/js/index.js"></script>
+</head>
+
+<body>
+    <script>
+        NProgress.start();
+    </script>
+    <header>
+        <div class="header_con">
+            <h1><a href="javascript:;"><img src="../static/index/img/web/logo-top.png" alt="logo"></a></h1>
+            <div class="phone">400-1234-123</div>
+        </div>
+    </header>
+    <nav>
+        <ul>
+            <li class="active"><a href="home.html">首页</a></li>
+            <li><a href="productCenter.html">产品中心</a></li>
+            <li><a href="aboutUs.html">关于我们</a></li>
+            <li><a href="news.html">新闻资讯</a></li>
+            <li><a href="contactUs.html">联系我们</a></li>
+        </ul>
+    </nav>
+    <main class="main">
+        <!-- big-banner -->
+        <div class="home-banner">
+            <div class="swiper-container swiper-container-home">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img class="banner-img" src="../static/index/img/web/322.png">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img class="banner-img" src="../static/index/img/web/322.png">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="javascript:;">
+                            <img class="banner-img" src="../static/index/img/web/322.png">
+                        </a>
+                    </div>
+                </div>
+                <div class="swiper-pagination pagination-home"></div>
+            </div>
+        </div>
+        <!-- 企业简介 -->
+        <div class="synopsis">
+            <div class="rowtit">
+                <span>BAIWEITE</span>
+                <p>— 企业简介 —</p>
+                <i>一家集铝合金装饰门开发、生产、销售为一体的综合性企业</i>
+            </div>
+            <div class="sc wow fadeInUp">
+                <div class="sct clearfix">
+                    <img src="../static/index/img/web/jianjie.png">
+                    <div class="sctr fl">
+                        <p>
+                            公司长期致力于产品、设备、技术的研发与生产，引进国际先进生产线与技术，追求
+                            产品品位与美观的完美融合。是一家专业设计、生产家居用品的生产销售企业，设计
+                            生产的移门产品在同行业中具有极高的知名度。公司拥有国内外先进的加工生产设备，
+                            产品专一化，结构多元化。拥有一整套严格有效的管理模式，生产经营的全过程中实
+                            行质量一票否决制。无论是在用料做工上、还是设计款式与花色上，都要求达到最好，
+                            使之成为追求高雅生活的消费者所崇尚的知名品牌。
+                        </p>
+                        <a zy-kefu href="javascript:;">
+                            <div class="font_box butani">立即咨询</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 数字抖动 -->
+        <div class="showNumber">
+            <ul>
+                <li>
+                    <p><i initPurNumber plus-difference="30" plus-end="2001">2001</i>年</p>
+                    <span>成立于</span>
+                </li>
+                <li>
+                    <p><i initPurNumber plus-difference="30" plus-end="50000">50000</i>件</p>
+                    <span>年生产件数</span>
+                </li>
+                <li>
+                    <p><i initPurNumber plus-difference="30" plus-end="10000">10000</i>方</p>
+                    <span>厂房面积</span>
+                </li>
+            </ul>
+        </div>
+        <!-- 案例banner双向控制 -->
+        <div class="switchswiper">
+            <div class="rowtit">
+                <span>BAIWEITE</span>
+                <p>— 我们的案例 —</p>
+                <i>严格按照产品标准生产，1000+客户的选择</i>
+            </div>
+            <div class="group">
+                <div class="bothway">
+                    <div class="swiper-container gallery-top" 
+                    site-spaceBetween='10'
+                    site-loop 
+                    site-loopedSlides='5'
+                    site-navigation="{nextEl: '.swiper-button-next',prevEl: '.swiper-button-prev',}"
+                    site-thumbs="top-thumb"
+                    >
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a class="item" href="javascript:;">
+                                    <img src="../static/index/img/1.jpg">
+                                </a>
+                                <div class="bot-zixun clearfix">
+                                    <p class="fl">
+                                        西安交通大学
+                                        <span>项目用门：平开门、推拉门</span>
+                                    </p>
+                                    <a zy-kefu class="fr" href="javascript:;">
+                                        <div class="btnc font_box butani">立即咨询</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="item" href="javascript:;">
+                                    <img src="../static/index/img/2.jpg">
+                                </a>
+                                <div class="bot-zixun clearfix">
+                                    <p class="fl">
+                                        西安交通大学
+                                        <span>项目用门：平开门、推拉门</span>
+                                    </p>
+                                    <a zy-kefu class="fr" href="javascript:;">
+                                        <div class="btnc font_box butani">立即咨询</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="item" href="javascript:;">
+                                    <img src="../static/index/img/3.jpg">
+                                </a>
+                                <div class="bot-zixun clearfix">
+                                    <p class="fl">
+                                        西安交通大学
+                                        <span>项目用门：平开门、推拉门</span>
+                                    </p>
+                                    <a zy-kefu class="fr" href="javascript:;">
+                                        <div class="btnc font_box butani">立即咨询</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="item" href="javascript:;">
+                                    <img src="../static/index/img/4.jpg">
+                                </a>
+                                <div class="bot-zixun clearfix">
+                                    <p class="fl">
+                                        西安交通大学
+                                        <span>项目用门：平开门、推拉门</span>
+                                    </p>
+                                    <a zy-kefu class="fr" href="javascript:;">
+                                        <div class="btnc font_box butani">立即咨询</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="item" href="javascript:;">
+                                    <img src="../static/index/img/1.jpg">
+                                </a>
+                                <div class="bot-zixun clearfix">
+                                    <p class="fl">
+                                        西安交通大学
+                                        <span>项目用门：平开门、推拉门</span>
+                                    </p>
+                                    <a zy-kefu class="fr" href="javascript:;">
+                                        <div class="btnc font_box butani">立即咨询</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="item" href="javascript:;">
+                                    <img src="../static/index/img/2.jpg">
+                                </a>
+                                <div class="bot-zixun clearfix">
+                                    <p class="fl">
+                                        西安交通大学
+                                        <span>项目用门：平开门、推拉门</span>
+                                    </p>
+                                    <a zy-kefu class="fr" href="javascript:;">
+                                        <div class="btnc font_box butani">立即咨询</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="item" href="javascript:;">
+                                    <img src="../static/index/img/3.jpg">
+                                </a>
+                                <div class="bot-zixun clearfix">
+                                    <p class="fl">
+                                        西安交通大学
+                                        <span>项目用门：平开门、推拉门</span>
+                                    </p>
+                                    <a zy-kefu class="fr" href="javascript:;">
+                                        <div class="btnc font_box butani">立即咨询</div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <a class="item" href="javascript:;">
+                                    <img src="../static/index/img/4.jpg">
+                                </a>
+                                <div class="bot-zixun clearfix">
+                                    <p class="fl">
+                                        西安交通大学
+                                        <span>项目用门：平开门、推拉门</span>
+                                    </p>
+                                    <a zy-kefu class="fr" href="javascript:;">
+                                        <div class="btnc font_box butani">立即咨询</div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-container gallery-thumbs" 
+                    new-swiper 
+                    site-spaceBetween='30'
+                    site-slidesPerView="3"
+                    site-loop 
+                    site-freeMode
+                    site-loopedSlides='5'
+                    site-watchSlidesVisibility
+                    site-watchSlidesProgress
+                    site-for-thumbs="top-thumb"
+                    >
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="../static/index/img/1.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../static/index/img/2.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../static/index/img/3.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../static/index/img/4.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../static/index/img/1.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../static/index/img/2.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../static/index/img/3.jpg" alt="">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="../static/index/img/4.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next swiper-button-white"></div>
+                    <div class="swiper-button-prev swiper-button-white"></div>
+                </div>
+            </div>
+        </div>
+        <!-- 合作大牌 -->
+        <div class="cooperation">
+            <div class="rowtit">
+                <span>BAIWEITE</span>
+                <p>— 合作大牌 —</p>
+                <i>大牌合作伙伴，品质有保障</i>
+            </div>
+            <div class="wrap wow fadeInUp">
+                <div class="swiper-container swiper-logo"
+                new-swiper
+                site-loop
+                site-autoplay="2500"
+                site-slidesPerView="5"
+                site-spaceBetween="23"
+                site-slidesPerGroup="5"
+                site-pagination="{el: '.pagination-brand'}"
+                >
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="javascript:;">
+                                <img src="../static/index/img/web/lo1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;">
+                                <img src="../static/index/img/web/lo2.png" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;">
+                                <img src="../static/index/img/web/lo3.png" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;">
+                                <img src="../static/index/img/web/lo4.png" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;">
+                                <img src="../static/index/img/web/lo5.png" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;">
+                                <img src="../static/index/img/web/lo6.png" alt="">
+                            </a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:;">
+                                <img src="../static/index/img/web/lo7.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination pagination-brand"></div>
+                </div>
+            </div>
+        </div>
+        <!-- 不规则图文区域 -->
+        <div class="witness">
+            <div class="rowtit">
+                <span>BAIWEITE</span>
+                <p>— 我们用实力说话 —</p>
+                <i>先进的生产设备，优质的原材料，先进的生产工艺，交期短，服务优，选择百维特就对了</i>
+            </div>
+            <div class="dc wow fadeInUp">
+                <div class="dc-item1 clearfix wow fadeInUp">
+                    <div class="dcw fr">
+                        <div class="info-wrap">
+                            <div class="info-item">
+                                <div class="biaoti clearfix">
+                                    <p class="xuhao fl">01</p>
+                                    <div class="fl">
+                                        <p>产品优势</p>
+                                        <p class="line"></p>
+                                        <p>PRODUCT ADVANTAGE</p>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                门窗采用优质面材，材质、花色及工艺都经过专业研究人员的分析和论证。
+                                每件五金配件都经过数万次验证与筛选，做到表美芯优。五金配件与板材
+                                一样，作为产品密不可分的部分，关系着整个产品的质量。
+                                </div>
+                            </div>
+                            <div class="info-item">
+                                <div class="biaoti clearfix">
+                                    <p class="xuhao fl">02</p>
+                                    <div class="fl">
+                                        <p>团队优势</p>
+                                        <p class="line"></p>
+                                        <p>TEAM ADVANTAGE</p>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                核心骨干由资深技术工程师、资深美术设计师、资深营销策划团队组成，
+                                凭借对专业的热情。以特有的智慧，敏捷的把握市场和消费心理，创造
+                                整体文化的理念，使之走在市场的前端，屹立在行业的领先地位。
+                                </div>
+                            </div>
+                        </div>
+                        <a zy-kefu class="btn font_box butani">
+                            立即咨询
+                        </a>
+                    </div>
+                    <div class="img-wrap">
+                        <img src="../static/index/img/web/y1.png" alt="">
+                        <div class="zhezhaoh">
+                            <p>WHY CHOOSE BAI WEI TE WOOD INDUSTRY</p>
+                            <p>为什么选择百维特?</p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="dc-item2 clearfix wow fadeInUp">
+                    <div class="dcw fl">
+                        <div class="info-wrap">
+                            <div class="info-item">
+                                <div class="biaoti clearfix">
+                                    <p class="xuhao fl">03</p>
+                                    <div class="fl">
+                                        <p>技术优势</p>
+                                        <p class="line"></p>
+                                        <p>TECHNICAL ADVANTAGE</p>
+                                    </div>   
+                                </div>
+                                <div class="text">
+                                本公司最新引进微晶打印技术和设备，可实现车刻、立线、微晶于一体的新
+                                工艺，新工艺支持来图定制个性化产品，“彰显自我”已经不是一个简单的
+                                口号，付诸实践是时尚达人的不二选择，做最独特的自己，享受“专属”的
+                                服务。
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="img-wrap">
+                        <img src="../static/index/img/web/y2.png" alt="">
+                    </div>
+                </div>
+                <div class="dc-item3 clearfix wow fadeInUp">
+                    <div class="dcw fr">
+                        <div class="info-wrap">
+                            <div class="info-item">
+                                <div class="biaoti clearfix">
+                                    <p class="xuhao fl">04</p>
+                                    <div class="fl">
+                                        <p>设备优势</p>
+                                        <p class="line"></p>
+                                        <p>EQUIPMENT ADVANTAGE</p>
+                                    </div>
+                                </div>
+                                <div class="text">
+                                45°单、双头锯：该锯床传动及进给均采用松下数控系统控制，玻璃
+                                清洗机：玻璃清洗机是玻璃在深加工工艺前工序对玻璃表面进行清洁、
+                                干燥处理的专用设备。磨具冲床：本机采用气动技术,实现一台空压
+                                机可以同时供多台气动冲孔机工作,格条铣床：铣床是用铣刀对工件
+                                进行铣削加工的机床，大大提高了工作效率，斜口缝隙拼接更完美。
+                                </div>
+                            </div>
+                        </div>
+                        <a zy-kefu class="btn font_box butani">
+                            立即咨询
+                        </a>
+                    </div>
+                    <div class="img-wrap">
+                        <img src="../static/index/img/web/y3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+         <!-- 底部聚焦 -->
+         <div class="news">
+            <div class="rowtit">
+                <span>BAIWEITE</span>
+                <p>— 聚焦百维特 —</p>
+                <i>共赢共生，服务社会</i>
+            </div>
+            <div class="newsc wow fadeInUp">
+                <div class="newscr layui-tab">
+                    <a class="more fr" href="news.html">查看更多</a>
+                    <ul class="layui-tab-title">
+                        <li class="layui-this"><a href="javascript:;">百维特要闻</a></li>
+                        <li><a href="javascript:;">行业资讯</a></li>
+                    </ul>
+                    <ul class="layui-tab-content">
+                        <li class="layui-tab-item layui-show">
+                            <img src="../static/index/img/web/newzhu.png" alt="">
+                            <ul class="newslist">
+                                <li>
+                                    <a class="clearfix" href="newsDetails.html">
+                                        <div class="nll fl">
+                                            <p>18</p>
+                                            <span>2020-07</span>
+                                        </div>
+                                        <div class="nlr fr">
+                                            <div class="nlrt clearfix">
+                                                <p>铝合金门材料优点是非常...</p>
+                                                <i>›</i>
+                                            </div>
+                                            <div class="nlrb">
+                                                中药制剂是任何药物供临床使用之前都必须制成适合于医疗或预防剂、注射剂、气雾剂、丸剂、散剂、膏剂等。剂...
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="clearfix" href="newsDetails.html">
+                                        <div class="nll fl">
+                                            <p>18</p>
+                                            <span>2020-07</span>
+                                        </div>
+                                        <div class="nlr fr">
+                                            <div class="nlrt clearfix">
+                                                <p>铝合金门材料优点是非常...</p>
+                                                <i>›</i>
+                                            </div>
+                                            <div class="nlrb">
+                                                中药制剂是任何药物供临床使用之前都必须制成适合于医疗或预防剂、注射剂、气雾剂、丸剂、散剂、膏剂等。剂...
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="clearfix" href="newsDetails.html">
+                                        <div class="nll fl">
+                                            <p>18</p>
+                                            <span>2020-07</span>
+                                        </div>
+                                        <div class="nlr fr">
+                                            <div class="nlrt clearfix">
+                                                <p>铝合金门材料优点是非常...</p>
+                                                <i>›</i>
+                                            </div>
+                                            <div class="nlrb">
+                                                中药制剂是任何药物供临床使用之前都必须制成适合于医疗或预防剂、注射剂、气雾剂、丸剂、散剂、膏剂等。剂...
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="layui-tab-item">
+                            <img src="../static/index/img/web/newzhu.png" alt="">
+                            <ul class="newslist">
+                                <li>
+                                    <a class="clearfix" href="newsDetails.html">
+                                        <div class="nll fl">
+                                            <p>25</p>
+                                            <span>2020-08</span>
+                                        </div>
+                                        <div class="nlr fr">
+                                            <div class="nlrt clearfix">
+                                                <p>木门原料是指在我国无惯...</p>
+                                                <i>›</i>
+                                            </div>
+                                            <div class="nlrb">
+                                                中药制剂是任何药物供临床使用之前都必须制成适合于医疗或预防剂、注射剂、气雾剂、丸剂、散剂、膏剂等。剂...
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="clearfix" href="newsDetails.html">
+                                        <div class="nll fl">
+                                            <p>25</p>
+                                            <span>2020-08</span>
+                                        </div>
+                                        <div class="nlr fr">
+                                            <div class="nlrt clearfix">
+                                                <p>木门原料是指在我国无惯...</p>
+                                                <i>›</i>
+                                            </div>
+                                            <div class="nlrb">
+                                                中药制剂是任何药物供临床使用之前都必须制成适合于医疗或预防剂、注射剂、气雾剂、丸剂、散剂、膏剂等。剂...
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="clearfix" href="newsDetails.html">
+                                        <div class="nll fl">
+                                            <p>25</p>
+                                            <span>2020-08</span>
+                                        </div>
+                                        <div class="nlr fr">
+                                            <div class="nlrt clearfix">
+                                                <p>木门原料是指在我国无惯...</p>
+                                                <i>›</i>
+                                            </div>
+                                            <div class="nlrb">
+                                                中药制剂是任何药物供临床使用之前都必须制成适合于医疗或预防剂、注射剂、气雾剂、丸剂、散剂、膏剂等。剂...
+                                            </div>
+                                        </div>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+         <!-- 简介(企业相册、案例现场、荣誉资质) -->
+         <div class="pdc-synopsis">
+            <div class="rowtit">
+                <span>BAIWEITE</span>
+                <p>— 企业简介 —</p>
+                <i>专注专注铝合金装饰门行业多年，十多年来我们只做一件事</i>
+            </div>
+            <div class="switch wow fadeInUp">
+                <div class="sc3 layui-tab layui-tab-brief" lay-filter="docTabProduct">
+                    <div class="bj">
+                        <div class="content-tab">
+                            <p>
+                                公司长期致力于产品、设备、技术的研发与生产，引进国际先进生产线与技术，追求产品品位与美观的完美融合。是一家专业设计、生产家居
+                                用品的生产销售企业，设计生产的移门产品在同行业中具有极高的知名度。公司拥有国内外先进的加工生产设备，产品专一化，结构多元化。
+                                拥有一整套严格有效的管理模式，生产经营的全过程中实行质量一票否决制。无论是在用料做工上、还是设计款式与花色上，都要求达到最好，
+                                使之成为追求高雅生活的消费者所崇尚的知名品牌。
+                            </p>
+                            <ul class="layui-tab-title">
+                                <li class="layui-this"><a href="javascript:;">企业相册</a></li>
+                                <li><a href="javascript:;">案例现场</a></li>
+                                <li><a href="javascript:;">荣誉资质</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <ul class="layui-tab-content wow fadeInUp">
+                        <li class="layui-tab-item layui-show">
+                            <div class="swiper_con">
+                                <div class="swiper-container swiper-container-product1"
+                                new-swiper
+                                site-loop
+                                site-slidesPerView="4"
+                                site-spaceBetween="20"
+                                site-slidesPerGroup="1"
+                                site-navigation="{nextEl: '.next-product1',prevEl: '.prev-product1',}"
+                                >
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <a href="javascript:;">
+                                                <img src="../static/index/img/web/gc1.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <a href="javascript:;">
+                                                <img src="../static/index/img/web/gc2.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <a href="javascript:;">
+                                                <img src="../static/index/img/web/gc3.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <a href="javascript:;">
+                                                <img src="../static/index/img/web/gc4.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-prev prev-product1"></div>
+                                <div class="swiper-button-next next-product1"></div>
+                            </div>
+                        </li>
+                        <li class="layui-tab-item">
+                            <div class="swiper_con">
+                                <div class="swiper-container swiper-container-product2"
+                                new-swiper
+                                site-loop
+                                site-slidesPerView="4"
+                                site-spaceBetween="20"
+                                site-slidesPerGroup="1"
+                                site-navigation="{nextEl: '.next-product2',prevEl: '.prev-product2',}"
+                                >
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <a href="javascript:;">
+                                                <img src="../static/index/img/web/gc1.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <a href="javascript:;">
+                                                <img src="../static/index/img/web/gc2.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <a href="javascript:;">
+                                                <img src="../static/index/img/web/gc3.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <a href="javascript:;">
+                                                <img src="../static/index/img/web/gc4.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-prev prev-product2"></div>
+                                <div class="swiper-button-next next-product2"></div>
+                            </div>
+                        </li>
+                        <li class="layui-tab-item">
+                            <div class="swiper_con">
+                                <div class="swiper-container swiper-container-product3"
+                                new-swiper
+                                site-loop
+                                site-slidesPerView="5"
+                                site-spaceBetween="20"
+                                site-slidesPerGroup="1"
+                                site-navigation="{nextEl: '.next-product3',prevEl: '.prev-product3',}"
+                                >
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <a href="javascript:;">
+                                                <img src="../static/index/img/web/gc1.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <a href="javascript:;">
+                                                <img src="../static/index/img/web/gc2.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <a href="javascript:;">
+                                                <img src="../static/index/img/web/gc3.png" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <a href="javascript:;">
+                                                <img src="../static/index/img/web/gc4.png" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-prev prev-product3"></div>
+                                <div class="swiper-button-next next-product3"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="fot_container">
+            <ul class="fott_title clearfix">
+                <li><a href="home.html">首页</a></li>
+                <li><a href="productCenter.html">产品中心</a></li>
+                <li><a href="aboutUs.html">关于我们</a></li>
+                <li><a href="news.html">新闻资讯</a></li>
+                <li><a href="contactUs.html">联系我们</a></li>
+            </ul>
+            <div class="fott_content clearfix">
+                <div class="fl">
+                    <div class="logo"><img src="../static/index/img/web/logo-bottom.png" alt=""></div>
+                    <div class="tel clearfix">
+                        <img src="../static/index/img/web/foot_phone.png" alt="">
+                        <span>400-029-1812</span>
+                    </div>
+                    <div class="titi">公司地址｜</div>
+                    <ul>
+                        <li>
+                            <div class="rendizi">
+                                <img src="../static/index/img/web/foot_phone_white.png" alt="">
+                                <span>办公电话：</span>
+                                <span>029-86184305</span>
+                            </div>
+                            <div class="rendizi">
+                                <img src="../static/index/img/web/foot_people.png" alt="">
+                                <span>联系电话：</span>
+                                <span>18009227742</span>
+                            </div>
+                            <div class="rendizi">
+                                <img src="../static/index/img/web/mail.png" alt="">
+                                <span>电子邮箱：</span>
+                                <span>1411095396@qq.com</span>
+                            </div>
+                            <div class="rendizi address-long clearfix">
+                                <div class="fl">
+                                    <img src="../static/index/img/web/foot_dizhi.png" alt="">
+                                    <span>公司地址：</span>
+                                </div>
+                                <p class="fl">陕西省西咸新区泾河新城华晨大道泾干四街东段</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="form fr">
+                    <p>立即咨询<i>—24小时在线服务</i></p>
+                    <form class="layui-form" lay-formname="首页底部提交">
+                        <input type="text" name="c_user" placeholder="请输入您的姓名">
+                        <input type="text" name="c_phone" lay-verify="required|phone" placeholder="请输入您的联系电话">
+                        <textarea name="c_demand" cols="30" rows="10" placeholder="请输入您的具体需求"></textarea>
+                        <div class="obtn">
+                            <div class="font_box butani">立即提交</div>
+                            <button type="button" lay-submit lay-filter="*">立即提交</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="QRcode fr">
+                    <p>扫码关注公众号</p>
+                    <img src="../static/index/img/QRcode.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="fot_b">
+            <div class="fotb_con">
+                <a href="">西安百维特家居建材有限公司</a>
+                <a href="http://www.beian.miit.gov.cn/" target="_blank" class="tcp-ip-info">网站备案号:XXXXXXXXXXX-1</a>
+                <a href="https://www.zoyuan.net/" target="_black">技术支持：阿里人品牌运营管理（陕西）有限公司</a>
+            </div>
+        </div>
+        <div return_top class="return_top">
+            <img src="../static/index/img/returntop.png" alt="">
+        </div>
+    </footer>
+    <script>
+        NProgress.done();
+    </script>
+</body>
+
+</html>
