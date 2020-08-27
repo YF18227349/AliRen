@@ -45,10 +45,12 @@ layui.define(['laydate'], function (exports) {
         option.slidesPerGroup = (typeof ($(v).attr('site-slidesPerGroup')) == 'undefined') ? 1 : fun._int($(v).attr('site-slidesPerGroup'));
         option.spaceBetween = (typeof ($(v).attr('site-spaceBetween')) == 'undefined') ? 0 : fun._int($(v).attr('site-spaceBetween'));
         option.loopedSlides = (typeof ($(v).attr('site-loopedSlides')) == 'undefined') ? 1 : fun._int($(v).attr('site-loopedSlides'));
+        option.loopAdditionalSlides = (typeof ($(v).attr('site-loopAdditionalSlides')) == 'undefined') ? 1 : fun._int($(v).attr('site-loopAdditionalSlides'));
         option.navigation = (typeof ($(v).attr('site-navigation')) == 'undefined') ? {} : fun.str2json($(v).attr('site-navigation'));
         option.watchSlidesVisibility = (typeof ($(v).attr('site-watchSlidesVisibility')) == 'undefined') ? false : true;//防止不可被点击
         option.watchSlidesProgress = (typeof ($(v).attr('site-watchSlidesProgress')) == 'undefined') ? false : true;
         option.freeMode = (typeof ($(v).attr('site-freeMode')) == 'undefined') ? false : true;
+        option.loopFillGroupWithBlank = (typeof ($(v).attr('site-loopFillGroupWithBlank')) == 'undefined') ? false : true;
         option.observer = true;
         option.observeParents = true;
         return option;

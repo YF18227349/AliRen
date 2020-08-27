@@ -26,19 +26,12 @@
     <link rel="stylesheet" href="../static/lib/zui-1.9.1/css/zui.min.css">
     <script src="../static/lib/zui-1.9.1/js/zui.min.js"></script>
 
-    <script src="../static/lib/modernizr/modernizr.js"></script>
-
-    <script src="https://style.yuzhua.com/public/plugins/jquery-1.7.2.min.js"></script>
-    <!-- <link rel="stylesheet" href="https://style.yuzhua.com/public/plugins/reset.css"> -->
-    <!--全局初始化css-->
-    <link rel="stylesheet" href="https://style.yuzhua.com/public/plugins/zAnimation/zAnimation.css">
-    <link rel="stylesheet" href="https://style.yuzhua.com/public/plugins/jquery.fullpage.css">
     <!--全屏滚动css插件-->
-    <script src="https://style.yuzhua.com/public/plugins/jquery.fullpage.js"></script>
+    <link rel="stylesheet" href="../static/lib/alirenNew/jquery.fullpage.css">
     <!--全屏滚动js插件-->
-    <script src="https://style.yuzhua.com/public/plugins/jquery.SuperSlide.2.1.1.js"></script>
+    <script src="../static/lib/alirenNew/jquery.fullpage.js"></script>
     <!--轮播-->
-    <!-- <script src="https://style.yuzhua.com/public/plugins/dotdotdot/dotdotdot.js"></script> -->
+    <script src="../static/lib/alirenNew/jquery.SuperSlide.2.1.1.js"></script>
     <link rel="stylesheet" href="../static/index/css/webScss.min.css">
     <link rel="stylesheet" href="../static/index/css/webHome.min.css">
     <script>
@@ -54,1011 +47,708 @@
         NProgress.start();
     </script>
     <!-- 侧边栏导航 -->
-    <ul id="pageNav" class="land_floatBar">
-        <li data-menuanchor="page1" class="floatBar_outer">
-            <a href="javascript:;">
-                <div class="floatBar_inner"></div>
-                <span class="floatBar_info">
-                    <span>首页</span><span class="line"></span>
-                </span>
-            </a>
-        </li>
-        <li data-menuanchor="page2" class="floatBar_outer">
-            <a href="javascript:;">
-                <div class="floatBar_inner"></div>
-                <span class="floatBar_info">
-                    <span>企业简介</span><span class="line"></span>
-                </span>
-            </a>
-        </li>
-        <li data-menuanchor="page3" class="floatBar_outer">
-            <a href="javascript:;">
-                <div class="floatBar_inner"></div>
-                <span class="floatBar_info">
-                    <span>四大难题</span><span class="line"></span>
-                </span>
-            </a>
-        </li>
-        <li data-menuanchor="page4" class="floatBar_outer">
-            <a href="javascript:;">
-                <div class="floatBar_inner"></div>
-                <span class="floatBar_info">
-                    <span>宝呗院</span><span class="line"></span>
-                </span>
-            </a>
-        </li>
-        <li data-menuanchor="page5" class="floatBar_outer">
-            <a href="javascript:;">
-                <div class="floatBar_inner"></div>
-                <span class="floatBar_info">
-                    <span>核心优势一</span><span class="line"></span>
-                </span>
-            </a>
-        </li>
-        <li data-menuanchor="page6" class="floatBar_outer">
-            <a href="javascript:;">
-                <div class="floatBar_inner"></div>
-                <span class="floatBar_info">
-                    <span>核心优势二</span><span class="line"></span>
-                </span>
-            </a>
-        </li>
-        <li data-menuanchor="page7" class="floatBar_outer">
-            <a href="javascript:;">
-                <div class="floatBar_inner"></div>
-                <span class="floatBar_info">
-                    <span>核心优势三</span><span class="line"></span>
-                </span>
-            </a>
-        </li>
-        <li data-menuanchor="page8" class="floatBar_outer">
-            <a href="javascript:;">
-                <div class="floatBar_inner"></div>
-                <span class="floatBar_info">
-                    <span>核心优势四</span><span class="line"></span>
-                </span>
-            </a>
-        </li>
-        <li data-menuanchor="page9" class="floatBar_outer">
-            <a href="javascript:;">
-                <div class="floatBar_inner"></div>
-                <span class="floatBar_info">
-                    <span>案例展示</span><span class="line"></span>
-                </span>
-            </a>
-        </li>
-        <li data-menuanchor="page10" class="floatBar_outer">
-            <a href="javascript:;">
-                <div class="floatBar_inner"></div>
-                <span class="floatBar_info">
-                    <span>备案信息</span><span class="line"></span>
-                </span>
-            </a>
-        </li>
-        <li data-menuanchor="page1" class="floatBar_outer on">
-            <a href="javascript:;">
-                <div class="floatBar_inner"></div>
-                <span class="floatBar_info">
-                    <span>TOP顶</span><span class="line"></span>
-                </span>
-            </a>
-        </li>
-    </ul>
-    <!-- 分屏开始 -->
-    <div id="fullpage" class="fullpage">
-        <!--第1屏-->
-        <div class="section first">
-            <div class="menu clearfix">
-                <h1 class="fl clearfix"><img src="../static/index/img/web/logo.png" alt="logo"></h1>
-                <ul class="fl clearfix">
-                    <li class="active"><a href="home.html">首页</a></li>
-                    <li><a href="">服务</a></li>
-                    <li><a href="">案例</a></li>
-                    <li><a href="">阿里人</a></li>
-                    <li><a href="">联系</a></li>
-                </ul>
-                <p class="tel-400 fr">400-123-1234</p>
+    <main class="home">
+        <ul id="pageNav" class="land_floatBar">
+            <li data-menuanchor="page1" class="floatBar_outer">
+                <a href="javascript:;">
+                    <div class="floatBar_inner"></div>
+                    <span class="floatBar_info">
+                        <span>首页</span><span class="line"></span>
+                    </span>
+                </a>
+            </li>
+            <li data-menuanchor="page2" class="floatBar_outer">
+                <a href="javascript:;">
+                    <div class="floatBar_inner"></div>
+                    <span class="floatBar_info">
+                        <span>企业简介</span><span class="line"></span>
+                    </span>
+                </a>
+            </li>
+            <li data-menuanchor="page3" class="floatBar_outer">
+                <a href="javascript:;">
+                    <div class="floatBar_inner"></div>
+                    <span class="floatBar_info">
+                        <span>四大难题</span><span class="line"></span>
+                    </span>
+                </a>
+            </li>
+            <li data-menuanchor="page4" class="floatBar_outer">
+                <a href="javascript:;">
+                    <div class="floatBar_inner"></div>
+                    <span class="floatBar_info">
+                        <span>宝呗院</span><span class="line"></span>
+                    </span>
+                </a>
+            </li>
+            <li data-menuanchor="page5" class="floatBar_outer">
+                <a href="javascript:;">
+                    <div class="floatBar_inner"></div>
+                    <span class="floatBar_info">
+                        <span>核心优势一</span><span class="line"></span>
+                    </span>
+                </a>
+            </li>
+            <li data-menuanchor="page6" class="floatBar_outer">
+                <a href="javascript:;">
+                    <div class="floatBar_inner"></div>
+                    <span class="floatBar_info">
+                        <span>核心优势二</span><span class="line"></span>
+                    </span>
+                </a>
+            </li>
+            <li data-menuanchor="page7" class="floatBar_outer">
+                <a href="javascript:;">
+                    <div class="floatBar_inner"></div>
+                    <span class="floatBar_info">
+                        <span>核心优势三</span><span class="line"></span>
+                    </span>
+                </a>
+            </li>
+            <li data-menuanchor="page8" class="floatBar_outer">
+                <a href="javascript:;">
+                    <div class="floatBar_inner"></div>
+                    <span class="floatBar_info">
+                        <span>核心优势四</span><span class="line"></span>
+                    </span>
+                </a>
+            </li>
+            <li data-menuanchor="page9" class="floatBar_outer">
+                <a href="javascript:;">
+                    <div class="floatBar_inner"></div>
+                    <span class="floatBar_info">
+                        <span>案例展示</span><span class="line"></span>
+                    </span>
+                </a>
+            </li>
+            <li data-menuanchor="page10" class="floatBar_outer">
+                <a href="javascript:;">
+                    <div class="floatBar_inner"></div>
+                    <span class="floatBar_info">
+                        <span>备案信息</span><span class="line"></span>
+                    </span>
+                </a>
+            </li>
+            <li data-menuanchor="page1" class="floatBar_outer on">
+                <a href="javascript:;">
+                    <div class="floatBar_inner"></div>
+                    <span class="floatBar_info">
+                        <span>TOP顶</span><span class="line"></span>
+                    </span>
+                </a>
+            </li>
+        </ul>
+        <!-- 分屏开始 -->
+        <div id="fullpage" class="fullpage">
+            <!--第1屏-->
+            <div class="section first">
+                <div class="menu clearfix">
+                    <h1 class="fl clearfix"><img src="../static/index/img/web/logo.png" alt="logo"></h1>
+                    <ul class="fl clearfix">
+                        <li class="active"><a href="home.html">首页</a></li>
+                        <li><a href="">服务</a></li>
+                        <li><a href="">案例</a></li>
+                        <li><a href="">阿里人</a></li>
+                        <li><a href="">联系</a></li>
+                    </ul>
+                    <p class="tel-400 fr">400-123-1234</p>
+                </div>
+                <div class="content">
+                    <div class="home-banner">
+                        <div class="swiper-container swiper-container-home" new-swiper site-loop site-autoplay="2500"
+                            site-pagination="{el: '.pagination-home'}">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a href="javascript:;">
+                                        <img class="banner-img" src="../static/index/img/web/mode1.png">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="javascript:;">
+                                        <img class="banner-img" src="../static/index/img/web/mode2.png">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a href="javascript:;">
+                                        <img class="banner-img" src="../static/index/img/web/mode3.png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination pagination-home"></div>
+                    </div>
+                </div>
             </div>
-            <div class="content">
-                <div class="home-banner">
-                    <div class="swiper-container swiper-container-home" new-swiper site-loop site-autoplay="2500"
-                        site-pagination="{el: '.pagination-home'}">
-                        <div class="swiper-wrapper">
-                            <div class="swiper-slide">
-                                <a href="javascript:;">
-                                    <img class="banner-img" src="../static/index/img/web/mode1.png">
-                                </a>
+            <!--第2屏-->
+            <div class="section second">
+                <div class="content">
+                    <div class="text">
+                        <p><img src="../static/index/img/web/OurCompany.png" alt="OurCompany"></p>
+                        <p>企业简介<span>+</span></p>
+                        <p>阿里人品牌运营管理（陕西）有限公司，已于2019年与阿里巴巴西北运营中心达成战略合作。公司专注于为广大中小型企业提供专业的品牌战略、营销策划、平台建设及技术支持等服务。在助力企业转型升级的发展过程中，提供科学、前沿、有效的全套解决方案，使企业转型升级更加简单，让企业未
+                        </p>
+                        <p>来成就无限的可能。</p>
+                    </div>
+                </div>
+            </div>
+            <!-- 第3屏 -->
+            <div class="section third">
+                <div class="common_top_content">
+                    <h3>FOUR BIG PROBLEM</h3>
+                    <p class="line"></p>
+                    <p class="zh_text">营销推广四大难题</p>
+                </div>
+                <div class="content-wrap">
+                    <ul class="left-ul fl">
+                        <li>
+                            <div class="title clearfix">
+                                <img class="fl" src="../static/index/img/web/mode-icon1.png" alt="mode-icon1">
+                                <p class="fl">营销定位</p>
                             </div>
-                            <div class="swiper-slide">
-                                <a href="javascript:;">
-                                    <img class="banner-img" src="../static/index/img/web/mode2.png">
-                                </a>
+                            <div class="txt">推广的客户不精准，光体验不买账，资源浪费。</div>
+                        </li>
+                        <li>
+                            <div class="title clearfix">
+                                <img class="fl" src="../static/index/img/web/mode-icon3.png" alt="mode-icon3">
+                                <p class="fl">推广规划</p>
                             </div>
-                            <div class="swiper-slide">
-                                <a href="javascript:;">
-                                    <img class="banner-img" src="../static/index/img/web/mode3.png">
-                                </a>
+                            <div class="txt">产品推广无计划，销量不稳定，客户无法快速裂变。 </div>
+                        </li>
+                    </ul>
+                    <ul class="right-ul fl">
+                        <li>
+                            <div class="title clearfix">
+                                <img class="fl" src="../static/index/img/web/mode-icon2.png" alt="mode-icon2">
+                                <p class="fl">销售渠道</p>
+                            </div>
+                            <div class="txt">缺乏行业资源，渠道少，客户少，销量少。</div>
+                        </li>
+                        <li>
+                            <div class="title clearfix">
+                                <img class="fl" src="../static/index/img/web/mode-icon4.png" alt="mode-icon4">
+                                <p class="fl">推广效果</p>
+                            </div>
+                            <div class="txt">花钱做推广，有流量没销量，有点击没效果。</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--第4屏-->
+            <div class="section forth">
+                <div class="common_top_content">
+                    <h3>阿里人宝呗院：<span>3“宝”+2“呗”+1“院”</span> </h3>
+                    <p class="zh_text">只做对企业真正有效的互联网！</p>
+                </div>
+                <div class="forth_process">
+                    <div class="forth_process-left">
+                        <div class="swiper-container" new-swiper site-spaceBetween='10' site-loop
+                            site-navigation="{nextEl: '.swiper-button-next',prevEl: '.swiper-button-prev',}">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="text">
+                                        <p class="tit">01 品牌宝</p>
+                                        <p class="info">阿里人「品牌宝」：夺市场就是夺人心，品牌就是用户心中的烙印品牌价值+产品价值=消费者预期价值，让品牌永恒烙印用户心</p>
+                                        <ul>
+                                            <li><span>品牌优化：</span>让品牌贴合消费者，让消费者认可品牌！</li>
+                                            <li><span>IP打造：</span>树立品牌形象，抢夺用户心智，打造超级IP符号！</li>
+                                            <li><span>口碑舆论：</span>引导舆论口碑导向，让用户替我们说“好”！</li>
+                                            <li><span>全网联动：</span>全网覆盖，让企业品牌在互联网铺天盖地！</li>
+                                        </ul>
+                                    </div>
+                                    <a href="javascript:;" zy-kefu class="botn">立即咨询</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="text">
+                                        <p class="tit">02 营销宝2.0</p>
+                                        <p class="info">阿里人「品牌宝」：夺市场就是夺人心，品牌就是用户心中的烙印品牌价值+产品价值=消费者预期价值，让品牌永恒烙印用户心</p>
+                                        <ul>
+                                            <li><span>品牌优化：</span>让品牌贴合消费者，让消费者认可品牌！</li>
+                                            <li><span>IP打造：</span>树立品牌形象，抢夺用户心智，打造超级IP符号！</li>
+                                            <li><span>口碑舆论：</span>引导舆论口碑导向，让用户替我们说“好”！</li>
+                                            <li><span>全网联动：</span>全网覆盖，让企业品牌在互联网铺天盖地！</li>
+                                        </ul>
+                                    </div>
+                                    <a href="javascript:;" zy-kefu class="botn">立即咨询</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="text">
+                                        <p class="tit">03 获客宝2.0</p>
+                                        <p class="info">阿里人「品牌宝」：夺市场就是夺人心，品牌就是用户心中的烙印品牌价值+产品价值=消费者预期价值，让品牌永恒烙印用户心</p>
+                                        <ul>
+                                            <li><span>品牌优化：</span>让品牌贴合消费者，让消费者认可品牌！</li>
+                                            <li><span>IP打造：</span>树立品牌形象，抢夺用户心智，打造超级IP符号！</li>
+                                            <li><span>口碑舆论：</span>引导舆论口碑导向，让用户替我们说“好”！</li>
+                                            <li><span>全网联动：</span>全网覆盖，让企业品牌在互联网铺天盖地！</li>
+                                        </ul>
+                                    </div>
+                                    <a href="javascript:;" zy-kefu class="botn">立即咨询</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="text">
+                                        <p class="tit">04 标准呗</p>
+                                        <p class="info">阿里人「品牌宝」：夺市场就是夺人心，品牌就是用户心中的烙印品牌价值+产品价值=消费者预期价值，让品牌永恒烙印用户心</p>
+                                        <ul>
+                                            <li><span>品牌优化：</span>让品牌贴合消费者，让消费者认可品牌！</li>
+                                            <li><span>IP打造：</span>树立品牌形象，抢夺用户心智，打造超级IP符号！</li>
+                                            <li><span>口碑舆论：</span>引导舆论口碑导向，让用户替我们说“好”！</li>
+                                            <li><span>全网联动：</span>全网覆盖，让企业品牌在互联网铺天盖地！</li>
+                                        </ul>
+                                    </div>
+                                    <a href="javascript:;" zy-kefu class="botn">立即咨询</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="text">
+                                        <p class="tit">05 系统呗</p>
+                                        <p class="info">阿里人「品牌宝」：夺市场就是夺人心，品牌就是用户心中的烙印品牌价值+产品价值=消费者预期价值，让品牌永恒烙印用户心</p>
+                                        <ul>
+                                            <li><span>品牌优化：</span>让品牌贴合消费者，让消费者认可品牌！</li>
+                                            <li><span>IP打造：</span>树立品牌形象，抢夺用户心智，打造超级IP符号！</li>
+                                            <li><span>口碑舆论：</span>引导舆论口碑导向，让用户替我们说“好”！</li>
+                                            <li><span>全网联动：</span>全网覆盖，让企业品牌在互联网铺天盖地！</li>
+                                        </ul>
+                                    </div>
+                                    <a href="javascript:;" zy-kefu class="botn">立即咨询</a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="text">
+                                        <p class="tit">06 加速工厂商学院</p>
+                                        <p class="info">阿里人「品牌宝」：夺市场就是夺人心，品牌就是用户心中的烙印品牌价值+产品价值=消费者预期价值，让品牌永恒烙印用户心</p>
+                                        <ul>
+                                            <li><span>品牌优化：</span>让品牌贴合消费者，让消费者认可品牌！</li>
+                                            <li><span>IP打造：</span>树立品牌形象，抢夺用户心智，打造超级IP符号！</li>
+                                            <li><span>口碑舆论：</span>引导舆论口碑导向，让用户替我们说“好”！</li>
+                                            <li><span>全网联动：</span>全网覆盖，让企业品牌在互联网铺天盖地！</li>
+                                        </ul>
+                                    </div>
+                                    <a href="javascript:;" zy-kefu class="botn">立即咨询</a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="swiper-pagination pagination-home"></div>
-                </div>
-            </div>
-        </div>
-        <!--第2屏-->
-        <div class="section second">
-            <div class="content">
-                <div class="text">
-                     <p><img src="../static/index/img/web/OurCompany.png" alt="OurCompany"></p>
-                     <p>企业简介<span>+</span></p>
-                     <p>阿里人品牌运营管理（陕西）有限公司，已于2019年与阿里巴巴西北运营中心达成战略合作。公司专注于为广大中小型企业提供专业的品牌战略、营销策划、平台建设及技术支持等服务。在助力企业转型升级的发展过程中，提供科学、前沿、有效的全套解决方案，使企业转型升级更加简单，让企业未</p>
-                     <p>来成就无限的可能。</p>
-                </div>
-            </div>
-        </div>
-        <!-- 第3屏 -->
-        <div class="section third">
-            <div class="common_top_content">
-                <h3>FOUR BIG PROBLEM</h3>
-                <p class="line"></p>
-                <p class="zh_text">营销推广四大难题</p>
-            </div>
-            <ul class="clearfix">
-                <li>
-                    <div class="title clearfix">
-                        <img class="fl" src="../static/index/img/web/mode-icon1.png" alt="mode-icon1">
-                        <p class="fl">营销定位</p>
-                    </div>
-                    <div class="txt">推广的客户不精准，光体验不买账，资源浪费。</div>
-                </li>
-                <li>
-                    <div class="title clearfix">
-                        <img class="fl" src="../static/index/img/web/mode-icon2.png" alt="mode-icon2">
-                        <p class="fl">销售渠道</p>
-                    </div>
-                    <div class="txt">缺乏行业资源，渠道少，客户少，销量少。</div>
-                </li>
-                <li>
-                    <div class="title clearfix">
-                        <img class="fl" src="../static/index/img/web/mode-icon3.png" alt="mode-icon3">
-                        <p class="fl">推广规划</p>
-                    </div>
-                    <div class="txt">产品推广无计划，销量不稳定，客户无法快速裂变。 </div>
-                </li>
-                <li>
-                    <div class="title clearfix">
-                        <img class="fl" src="../static/index/img/web/mode-icon4.png" alt="mode-icon4">
-                        <p class="fl">推广效果</p>
-                    </div>
-                    <div class="txt">花钱做推广，有流量没销量，有点击没效果。</div>
-                </li>
-            </ul>
-        </div>
-        <!--第3屏-->
-        <!-- <div class="section third">
-            <div class="flex_width">
-                <div class="common_top_content">
-                    <h3>02</h3>
-                    <h2> 鱼爪营销服务</h2>
-                    <p class="zh_text">我们将利用资源整合优势和专业创新策划能力满足企业多元营销需求</p>
-                    <p class="en_text">advertising</p>
-                </div>
-                <div class="third_process">
-                    <div class="third_processl">
-                        <a href="javascript:;" class="prev"></a>
-                        <a href="javascript:;" class="next"></a>
-                        <ul class="third_processl_ul">
-                            <li class="third_processl_li">
-                                <p class="third_processl_name"><span>01</span>品牌定位分析</p>
-                                <p class="third_processl_intro">我们通过实地调研，帮助企业主快速了解客户，解决找不到
-                                    客户、出单少等问题，制定推广策略，让客户发现企业优势，
-                                    快速成单，减少订单流失。</p>
-                                <div class="third_processl_line"></div>
-                                <div class="third_processl_reason">
-                                    <img src="https://style.yuzhua.com/public/mj/operate/images/icon7.png" alt="">
-                                    <span>告别盲目，专业团队深度调研</span>
-                                </div>
-                                <div class="third_processl_reason">
-                                    <img src="https://style.yuzhua.com/public/mj/operate/images/icon7.png" alt="">
-                                    <span>摆脱无趣，推广策略创新定制</span>
-                                </div>
-                                <a href="https://gytk5.kuaishang.cn/bs/im.htm?cas=77240___930221&fi=88233"
-                                    target="_blank" class="third_processl_connenct"></a>
-                                <div class="third_processl_pages">
-                                    <span>01</span><em>/</em><em>04</em>
-                                </div>
-                            </li>
-                            <li class="third_processl_li">
-                                <p class="third_processl_name"><span>02</span>营销活动策划</p>
-                                <p class="third_processl_intro">
-                                    客户对产品、服务不够了解，还在犹豫购买。我们将通过一系列的营销活动，牢牢抓住客户的目光，拉近企业与客户之间的距离，让客户喜欢您，促成转介绍，形成二次消费。</p>
-                                <div class="third_processl_line"></div>
-                                <div class="third_processl_reason">
-                                    <img src="https://style.yuzhua.com/public/mj/operate/images/icon7.png" alt="">
-                                    <span>企业常态化持续营销</span>
-                                </div>
-                                <div class="third_processl_reason">
-                                    <img src="https://style.yuzhua.com/public/mj/operate/images/icon7.png" alt="">
-                                    <span>销量阶梯式稳定增加</span>
-                                </div>
-                                <a href="https://gytk5.kuaishang.cn/bs/im.htm?cas=77240___930221&fi=88233"
-                                    target="_blank" class="third_processl_connenct"></a>
-                                <div class="third_processl_pages">
-                                    <span>02</span><em>/</em><em>04</em>
-                                </div>
-                            </li>
-                            <li class="third_processl_li">
-                                <p class="third_processl_name"><span>03</span>销售渠道推广</p>
-                                <p class="third_processl_intro">
-                                    我们将利用线上全网资源帮助企业解决线下销售瓶颈，低成本渗透市场，使产品服务快速转移到客户手中，扩大销售，加速资金周转。</p>
-                                <div class="third_processl_line"></div>
-                                <div class="third_processl_reason">
-                                    <img src="https://style.yuzhua.com/public/mj/operate/images/icon7.png" alt="">
-                                    <span>整合全网传播资源联合营销</span>
-                                </div>
-                                <div class="third_processl_reason">
-                                    <img src="https://style.yuzhua.com/public/mj/operate/images/icon7.png" alt="">
-                                    <span>渠道拓展销量倍数爆发增长</span>
-                                </div>
-                                <a href="https://gytk5.kuaishang.cn/bs/im.htm?cas=77240___930221&fi=88233"
-                                    target="_blank" class="third_processl_connenct"></a>
-                                <div class="third_processl_pages">
-                                    <span>03</span><em>/</em><em>04</em>
-                                </div>
-                            </li>
-                            <li class="third_processl_li">
-                                <p class="third_processl_name"><span>04</span>结案数据报告</p>
-                                <p class="third_processl_intro">
-                                    我们用专业报告呈现营销推广过程和活动效果总结，为企业主运营决策提供数据支持，从而帮助企业主了解市场环境，竞争对手营销动态，抢占市场先机，提高业务增量。</p>
-                                <div class="third_processl_line"></div>
-                                <div class="third_processl_reason">
-                                    <img src="https://style.yuzhua.com/public/mj/operate/images/icon7.png" alt="">
-                                    <span>提供整体投放方案和数据报告</span>
-                                </div>
-                                <div class="third_processl_reason">
-                                    <img src="https://style.yuzhua.com/public/mj/operate/images/icon7.png" alt="">
-                                    <span>营销过程实时监测把控活动效果</span>
-                                </div>
-                                <a href="https://gytk5.kuaishang.cn/bs/im.htm?cas=77240___930221&fi=88233"
-                                    target="_blank" class="third_processl_connenct"></a>
-                                <div class="third_processl_pages">
-                                    <span>04</span><em>/</em><em>04</em>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="third_processr">
-                        <a href="javascript:;" class="prev"></a>
-                        <a href="javascript:;" class="next"></a>
-                        <ul class="third_processr_ul">
-                            <li class="third_processr_li">
-                                <div class="third_processr_narmal third_processr_normal1">
-                                    <p class="third_processr_narmal_name">品牌定位分析</p>
-                                    <!--<a href="javascript:;" class="third_processr_narmal_check">查看详情></a>-->
-                                    <div class="third_processr_narmal_pages">
+                    <div class="forth_process-right">
+                        <div class="swiper-container" new-swiper site-spaceBetween='10' site-slidesPerView="4"
+                            site-loopAdditionalSlides="6" site-loop site-slidesPerColumn='1'
+                            site-navigation="{nextEl: '.swiper-button-next',prevEl: '.swiper-button-prev',}">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide swiper-slide1">
+                                    <div class="tag_info">
+                                        <p>Brand</p>
+                                        <p>品牌宝</p>
+                                    </div>
+                                    <div class="tag_num">
                                         <p>01</p>
-                                        <span>PART</span>
+                                        <p>PART</p>
                                     </div>
                                 </div>
-                            </li>
-                            <li class="third_processr_li">
-                                <div class="third_processr_narmal third_processr_normal2">
-                                    <p class="third_processr_narmal_name">营销活动策划</p>
-                                    <!--<a href="javascript:;" class="third_processr_narmal_check">查看详情></a>-->
-                                    <div class="third_processr_narmal_pages">
+                                <div class="swiper-slide swiper-slide2">
+                                    <div class="tag_info">
+                                        <p>Marketing treasure</p>
+                                        <p>营销宝2.0</p>
+                                    </div>
+                                    <div class="tag_num">
                                         <p>02</p>
-                                        <span>PART</span>
+                                        <p>PART</p>
                                     </div>
                                 </div>
-                            </li>
-                            <li class="third_processr_li">
-                                <div class="third_processr_narmal third_processr_normal3">
-                                    <p class="third_processr_narmal_name">销售渠道推广</p>
-                                    <!--<a href="javascript:;" class="third_processr_narmal_check">查看详情></a>-->
-                                    <div class="third_processr_narmal_pages">
+                                <div class="swiper-slide swiper-slide3">
+                                    <div class="tag_info">
+                                        <p>A guest treasure</p>
+                                        <p>获客宝2.0</p>
+                                    </div>
+                                    <div class="tag_num">
                                         <p>03</p>
-                                        <span>PART</span>
+                                        <p>PART</p>
                                     </div>
                                 </div>
-                            </li>
-                            <li class="third_processr_li">
-                                <div class="third_processr_narmal third_processr_normal4">
-                                    <p class="third_processr_narmal_name">结案数据报告</p>
-                                    <!--<a href="javascript:;" class="third_processr_narmal_check">查看详情></a>-->
-                                    <div class="third_processr_narmal_pages">
+                                <div class="swiper-slide swiper-slide4">
+                                    <div class="tag_info">
+                                        <p>Standard bai</p>
+                                        <p>标准呗</p>
+                                    </div>
+                                    <div class="tag_num">
                                         <p>04</p>
-                                        <span>PART</span>
+                                        <p>PART</p>
                                     </div>
                                 </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
-        <!--第4屏-->
-        <div class="section forth">
-            <div class="flex_width">
-                <div class="common_top_content">
-                    <h3>03</h3>
-                    <h2> 鱼爪核心优势一</h2>
-                    <p class="zh_text">我们为您提供的解决方案</p>
-                    <p class="en_text">advertising</p>
-                </div>
-                <div class="forth_wrap">
-                    <div class="forth_center">
-                        <div class="forth_center_l">
-                            <p class="forth_center_name">超过90%市场渗透率</p>
-                            <span class="forth_center_line"></span>
-                            <p class="forth_center_intro">
-                                我们拥有超过3千家媒体，10万+微信大号，10万+微博大V，涵盖电视媒体，杂志报纸，网络媒体等。超高推广覆盖面，让客户轻易找到您。
-                            </p>
-                            <div class="forth_center_wrap">
-                                <p class="forth_center_detail">整合全网资源，多渠道流量入口，超高推广覆盖率</p>
-                                <p class="forth_center_detail">推广数据实时监控，及时调整营销方案，不断优化</p>
-                                <p class="forth_center_detail">提供多种专业统计数据报告，效果总结一目了然</p>
-                            </div>
-                            <a href="https://gytk5.kuaishang.cn/bs/im.htm?cas=77240___930221&fi=88233" target="_blank"
-                                class="forth_center_connect">
-                                <i></i>
-                                联系客服
-                            </a>
-                        </div>
-                        <div class="forth_center_r">
-                            <div class="forth_center_title">
-                                部分媒体展示
-                            </div>
-                            <div class="forth_center_show on">
-                                <img class="forth_center_logo forth_center_logo1"
-                                    src="https://style.yuzhua.com/public/mj/operate/images/pic11.png" alt="">
-                                <img class="forth_center_logo forth_center_logo2"
-                                    src="https://style.yuzhua.com/public/mj/operate/images/pic12.png" alt="">
-                                <img class="forth_center_logo forth_center_logo3"
-                                    src="https://style.yuzhua.com/public/mj/operate/images/pic13.png" alt="">
-                                <img class="forth_center_logo forth_center_logo4"
-                                    src="https://style.yuzhua.com/public/mj/operate/images/pic14.png" alt="">
-                                <img class="forth_center_logo forth_center_logo5"
-                                    src="https://style.yuzhua.com/public/mj/operate/images/pic15.png" alt="">
-                                <img class="forth_center_logo forth_center_logo6"
-                                    src="https://style.yuzhua.com/public/mj/operate/images/pic16.png" alt="">
-                                <img class="forth_center_logo forth_center_logo7"
-                                    src="https://style.yuzhua.com/public/mj/operate/images/pic17.png" alt="">
-                                <img class="forth_center_logo forth_center_logo8"
-                                    src="https://style.yuzhua.com/public/mj/operate/images/pic18.png" alt="">
-                                <img class="forth_center_logo forth_center_logo9"
-                                    src="https://style.yuzhua.com/public/mj/operate/images/pic19.png" alt="">
-                                <img class="forth_center_logo forth_center_logo10"
-                                    src="https://style.yuzhua.com/public/mj/operate/images/pic20.png" alt="">
-                                <img class="forth_center_logo forth_center_logo11"
-                                    src="https://style.yuzhua.com/public/mj/operate/images/pic21.png" alt="">
-                                <img class="forth_center_logo forth_center_logo12"
-                                    src="https://style.yuzhua.com/public/mj/operate/images/pic22.png" alt="">
-                                <img class="forth_center_logo forth_center_logo13"
-                                    src="https://style.yuzhua.com/public/mj/operate/images/pic23.png" alt="">
-                                <img class="forth_center_logo forth_center_logo14"
-                                    src="https://style.yuzhua.com/public/mj/operate/images/pic24.png" alt="">
-                                <img class="forth_center_logo forth_center_logo15"
-                                    src="https://style.yuzhua.com/public/mj/operate/images/pic25.png" alt="">
-                                <img class="forth_center_logo forth_center_logo16"
-                                    src="https://style.yuzhua.com/public/mj/operate/images/pic26.png" alt="">
-                                <img class="forth_center_logo forth_center_logo17"
-                                    src="https://style.yuzhua.com/public/mj/operate/images/pic27.png" alt="">
-                                <img class="forth_center_logo forth_center_logo18"
-                                    src="https://style.yuzhua.com/public/mj/operate/images/pic28.png" alt="">
-                                <img class="forth_center_logo forth_center_logo19"
-                                    src="https://style.yuzhua.com/public/mj/operate/images/pic29.png" alt="">
+                                <div class="swiper-slide swiper-slide5">
+                                    <div class="tag_info">
+                                        <p>System bai</p>
+                                        <p>系统呗</p>
+                                    </div>
+                                    <div class="tag_num">
+                                        <p>05</p>
+                                        <p>PART</p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide swiper-slide6">
+                                    <div class="tag_info">
+                                        <p>Speed up factory</p>
+                                        <p>加速工厂商学院</p>
+                                    </div>
+                                    <div class="tag_num">
+                                        <p>06</p>
+                                        <p>PART</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="swiper-button-next swiper-button-white"></div>
+                    <div class="swiper-button-prev swiper-button-white"></div>
                 </div>
             </div>
-        </div>
-
-        <!--第5屏-->
-        <div class="section fifth">
-            <div class="flex_width">
+            <!--第5屏-->
+            <div class="section fifth">
                 <div class="common_top_content">
-                    <h3>04</h3>
-                    <h2>鱼爪核心优势二</h2>
-                    <p class="zh_text">我们为您提供的解决方案</p>
-                    <p class="en_text">advertising</p>
+                    <h3>ALI PEOPLE CORE ADVANTAGE ONE</h3>
+                    <p class="line"></p>
+                    <p class="zh_text">阿里人核心优势一</p>
                 </div>
-                <div class="forth_wrap">
-                    <div class="forth_center fifth_center">
-                        <div class="forth_center_l">
-                            <p class="forth_center_name">精准定位目标客户<br>有效触达</p>
-                            <span class="forth_center_line"></span>
-                            <p class="forth_center_intro">
-                                我们利用大数据精准营销的优势，让您花费更少的钱，带来更大的效果转化与培养更多的潜在用户。
-                            </p>
-                            <div class="forth_center_wrap">
-                                <p class="forth_center_detail">基于鱼爪和合作网站数据挖掘，提供数个维度标签分类</p>
-                                <p class="forth_center_detail">利用关键词、地域、时间等多种定位方式快速锁定客户</p>
-                                <p class="forth_center_detail">推广更有力，有效触达全网11亿受众人群</p>
+                <div class="fifth_wrap">
+                    <div class="fifth_center clearfix">
+                        <div class="fifth_center_l">
+                            <div class="text">
+                                <p class="info">全案品牌整合升级，助企业品牌核心竞争力涅槃进化</p>
+                                <p class="info2">4维品牌赋能升级+5大互联网营销获客系统落地+企业加速工厂商学院，激活企业内部造血功能、助力企业跨越式升级转型！</p>
                             </div>
-                            <a href="https://gytk5.kuaishang.cn/bs/im.htm?cas=77240___930221&fi=88233" target="_blank"
-                                class="forth_center_connect">
-                                <i></i>
-                                联系客服
-                            </a>
+                            <a href="javascript:;" zy-kefu class="botn">立即咨询</a>
                         </div>
-                        <div class="forth_center_r fifth_center_r">
-                            <div class="forth_center_title">
-                                定位目标客户
+                        <div class="fifth_center_r">
+                            <div class="fifth_center_title">—— 部分媒体 ——</div>
+                            <div class="fifth_center_show on">
+                                <img class="fifth_center_logo fifth_center_logo1"
+                                    src="../static/index/img/web/mode5-icon1.png" alt="">
+                                <img class="fifth_center_logo fifth_center_logo2"
+                                    src="../static/index/img/web/mode5-icon2.png" alt="">
+                                <img class="fifth_center_logo fifth_center_logo3"
+                                    src="../static/index/img/web/mode5-icon3.png" alt="">
+                                <img class="fifth_center_logo fifth_center_logo4"
+                                    src="../static/index/img/web/mode5-icon4.png" alt="">
+                                <img class="fifth_center_logo fifth_center_logo5"
+                                    src="../static/index/img/web/mode5-icon5.png" alt="">
+                                <img class="fifth_center_logo fifth_center_logo6"
+                                    src="../static/index/img/web/mode5-icon6.png" alt="">
+                                <img class="fifth_center_logo fifth_center_logo7"
+                                    src="../static/index/img/web/mode5-icon7.png" alt="">
+                                <img class="fifth_center_logo fifth_center_logo8"
+                                    src="../static/index/img/web/mode5-icon8.png" alt="">
+                                <img class="fifth_center_logo fifth_center_logo9"
+                                    src="../static/index/img/web/mode5-icon9.png" alt="">
+                                <img class="fifth_center_logo fifth_center_logo10"
+                                    src="../static/index/img/web/mode5-icon10.png" alt="">
+                                <img class="fifth_center_logo fifth_center_logo11"
+                                    src="../static/index/img/web/mode5-icon11.png" alt="">
+                                <img class="fifth_center_logo fifth_center_logo12"
+                                    src="../static/index/img/web/mode5-icon12.png" alt="">
+                                <img class="fifth_center_logo fifth_center_logo13"
+                                    src="../static/index/img/web/mode5-icon13.png" alt="">
+                                <img class="fifth_center_logo fifth_center_logo14"
+                                    src="../static/index/img/web/mode5-icon14.png" alt="">
+                                <img class="fifth_center_logo fifth_center_logo15"
+                                    src="../static/index/img/web/mode5-icon15.png" alt="">
                             </div>
-                            <div class="fifth_center_show">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--第6屏-->
+            <div class="section sixth">
+                <div class="common_top_content">
+                    <h3>ALI PEOPLE CORE ADVANTAGE TWO</h3>
+                    <p class="line"></p>
+                    <p class="zh_text">阿里人核心优势二</p>
+                </div>
+                <div class="sixth_wrap">
+                    <div class="sixth_center clearfix">
+                        <div class="sixth_center_l fl">
+                            <div class="text">
+                                <p class="info">全新品牌营销模式 赋能企业生产力</p>
+                                <p class="info2">
+                                    国内一站式企业品牌全案策划服务先驱。品牌塑形提升+全网营销策划+SEM关键词排名+线上获客等一站式企业运营服务，颠覆传统互联网单点服务模式，让营销更落地，赚钱更容易！</p>
+                            </div>
+                            <a href="javascript:;" zy-kefu class="botn">立即咨询</a>
+                        </div>
+                        <div class="sixth_center_r fr">
+                            <div class="sixth_center_title">—— 定位目标客户 ——</div>
+                            <div class="sixth_center_show">
                                 <div class="show_info show_info1">
-                                    <div class="show_img">
-                                        <img src="https://style.yuzhua.com/public/mj/operate/images/mu1.png" alt="">
-                                    </div>
-                                    <div class="show_intro">
-                                        <p class="show_user">注册用户 <img
-                                                src="https://style.yuzhua.com/public/mj/operate/images/sex1.png" alt="">
-                                        </p>
-                                        <p class="show_user_info">企业主 / 43岁</p>
-                                    </div>
-                                    <img class="show_loacation"
-                                        src="https://style.yuzhua.com/public/mj/operate/images/location1.png" alt="">
+                                    <img src="../static/index/img/web/mode6-icon (1).png" alt="">
                                 </div>
                                 <div class="show_info show_info2">
-                                    <div class="show_img">
-                                        <img src="https://style.yuzhua.com/public/mj/operate/images/mu3.png" alt="">
-                                    </div>
-                                    <div class="show_intro">
-                                        <p class="show_user">注册用户 <img
-                                                src="https://style.yuzhua.com/public/mj/operate/images/sex2.png" alt="">
-                                        </p>
-                                        <p class="show_user_info">公务员 / 24岁</p>
-                                    </div>
-                                    <img class="show_loacation"
-                                        src="https://style.yuzhua.com/public/mj/operate/images/location1.png" alt="">
+                                    <img src="../static/index/img/web/mode6-icon (2).png" alt="">
                                 </div>
                                 <div class="show_info show_info3">
-                                    <div class="show_img">
-                                        <img src="https://style.yuzhua.com/public/mj/operate/images/mu10.png" alt="">
-                                    </div>
-                                    <div class="show_intro">
-                                        <p class="show_user">潜在用户 <img
-                                                src="https://style.yuzhua.com/public/mj/operate/images/sex2.png" alt="">
-                                        </p>
-                                        <p class="show_user_info">学生 / 20岁</p>
-                                    </div>
-                                    <img class="show_loacation"
-                                        src="https://style.yuzhua.com/public/mj/operate/images/location1.png" alt="">
+                                    <img src="../static/index/img/web/mode6-icon (3).png" alt="">
                                 </div>
                                 <div class="show_info show_info4">
-                                    <div class="show_img">
-                                        <img src="https://style.yuzhua.com/public/mj/operate/images/mu2.png" alt="">
-                                    </div>
-                                    <div class="show_intro">
-                                        <p class="show_user">潜在用户 <img
-                                                src="https://style.yuzhua.com/public/mj/operate/images/sex1.png" alt="">
-                                        </p>
-                                        <p class="show_user_info">企业主 / 50岁</p>
-                                    </div>
-                                    <img class="show_loacation"
-                                        src="https://style.yuzhua.com/public/mj/operate/images/location1.png" alt="">
+                                    <img src="../static/index/img/web/mode6-icon (4).png" alt="">
                                 </div>
                                 <div class="show_info show_info5">
-                                    <div class="show_img">
-                                        <img src="https://style.yuzhua.com/public/mj/operate/images/mu5.png" alt="">
-                                    </div>
-                                    <div class="show_intro">
-                                        <p class="show_user">注册用户 <img
-                                                src="https://style.yuzhua.com/public/mj/operate/images/sex1.png" alt="">
-                                        </p>
-                                        <p class="show_user_info">企业主 / 36岁</p>
-                                    </div>
-                                    <img class="show_loacation"
-                                        src="https://style.yuzhua.com/public/mj/operate/images/location1.png" alt="">
+                                    <img src="../static/index/img/web/mode6-icon (5).png" alt="">
                                 </div>
                                 <div class="show_info show_info6">
-                                    <div class="show_img">
-                                        <img src="https://style.yuzhua.com/public/mj/operate/images/mu6.png" alt="">
-                                    </div>
-                                    <div class="show_intro">
-                                        <p class="show_user">注册用户 <img
-                                                src="https://style.yuzhua.com/public/mj/operate/images/sex1.png" alt="">
-                                        </p>
-                                        <p class="show_user_info">公务员 / 30岁</p>
-                                    </div>
-                                    <img class="show_loacation"
-                                        src="https://style.yuzhua.com/public/mj/operate/images/location1.png" alt="">
+                                    <img src="../static/index/img/web/mode6-icon (6).png" alt="">
                                 </div>
                                 <div class="show_info show_info7">
-                                    <div class="show_img">
-                                        <img src="https://style.yuzhua.com/public/mj/operate/images/mu7.png" alt="">
-                                    </div>
-                                    <div class="show_intro">
-                                        <p class="show_user">注册用户 <img
-                                                src="https://style.yuzhua.com/public/mj/operate/images/sex1.png" alt="">
-                                        </p>
-                                        <p class="show_user_info">学生 / 20岁</p>
-                                    </div>
-                                    <img class="show_loacation"
-                                        src="https://style.yuzhua.com/public/mj/operate/images/location1.png" alt="">
-                                </div>
-                                <div class="show_info show_info8">
-                                    <div class="show_img">
-                                        <img src="https://style.yuzhua.com/public/mj/operate/images/mu8.png" alt="">
-                                    </div>
-                                    <div class="show_intro">
-                                        <p class="show_user">注册用户 <img
-                                                src="https://style.yuzhua.com/public/mj/operate/images/sex1.png" alt="">
-                                        </p>
-                                        <p class="show_user_info">白领 / 32岁</p>
-                                    </div>
-                                    <img class="show_loacation"
-                                        src="https://style.yuzhua.com/public/mj/operate/images/location1.png" alt="">
-                                </div>
-                                <div class="show_info show_info9">
-                                    <div class="show_img">
-                                        <img src="https://style.yuzhua.com/public/mj/operate/images/mu4.png" alt="">
-                                    </div>
-                                    <div class="show_intro">
-                                        <p class="show_user">注册用户 <img
-                                                src="https://style.yuzhua.com/public/mj/operate/images/sex2.png" alt="">
-                                        </p>
-                                        <p class="show_user_info">白领 / 26岁</p>
-                                    </div>
-                                    <img class="show_loacation"
-                                        src="https://style.yuzhua.com/public/mj/operate/images/location1.png" alt="">
-                                </div>
-                                <div class="show_info show_info10">
-                                    <div class="show_img">
-                                        <img src="https://style.yuzhua.com/public/mj/operate/images/mu11.png" alt="">
-                                    </div>
-                                    <div class="show_intro">
-                                        <p class="show_user">潜在用户 <img
-                                                src="https://style.yuzhua.com/public/mj/operate/images/sex2.png" alt="">
-                                        </p>
-                                        <p class="show_user_info">学生 / 21岁</p>
-                                    </div>
-                                    <img class="show_loacation"
-                                        src="https://style.yuzhua.com/public/mj/operate/images/location1.png" alt="">
-                                </div>
-                                <div class="show_info show_info11">
-                                    <div class="show_img">
-                                        <img src="https://style.yuzhua.com/public/mj/operate/images/mu9.png" alt="">
-                                    </div>
-                                    <div class="show_intro">
-                                        <p class="show_user">注册用户 <img
-                                                src="https://style.yuzhua.com/public/mj/operate/images/sex1.png" alt="">
-                                        </p>
-                                        <p class="show_user_info">企业主 / 41岁</p>
-                                    </div>
-                                    <img class="show_loacation"
-                                        src="https://style.yuzhua.com/public/mj/operate/images/location1.png" alt="">
+                                    <img src="../static/index/img/web/mode6-icon (1).png" alt="">
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <!--第6屏-->
-        <div class="section sixth">
-            <div class="flex_width">
+            <!--第7屏-->
+            <div class="section seventh">
                 <div class="common_top_content">
-                    <h3>05</h3>
-                    <h2>鱼爪核心优势三</h2>
-                    <p class="zh_text">我们为您提供的解决方案</p>
-                    <p class="en_text">advertising</p>
+                    <h3>ALI PEOPLE CORE ADVANTAGE THREE</h3>
+                    <p class="line"></p>
+                    <p class="zh_text">阿里人核心优势三</p>
                 </div>
-                <div class="forth_wrap">
-                    <div class="forth_center sixth_center">
-                        <div class="forth_center_l">
-                            <p class="forth_center_name">原创方案定制<br>创新营销</p>
-                            <span class="forth_center_line"></span>
-                            <p class="forth_center_intro">
-                                我们用创新式营销打造真实的品牌故事，打消客户心理戒备，让客户信任您，顺利成单。
-                            </p>
-                            <div class="forth_center_wrap">
-                                <p class="forth_center_detail">专业营销团队，八年以上企业营销推广经验</p>
-                                <p class="forth_center_detail">客户需求准确分析，提供创意性、传播性营销方案</p>
-                                <p class="forth_center_detail">告别标准化传统营销，差异化布局，抢占市场先机</p>
+                <div class="seventh_wrap">
+                    <div class="seventh_center clearfix">
+                        <div class="seventh_center_l fl">
+                            <div class="text">
+                                <p class="info">互联网全领域天团合击技</p>
+                                <p class="info2">20多位互联网领域管理运营大咖、品牌策划专家、品牌形象提升大师、互联网引流专家、顶尖技术专家，10年互联网营销实战技能精诚奉献。</p>
                             </div>
-                            <a href="https://gytk5.kuaishang.cn/bs/im.htm?cas=77240___930221&fi=88233" target="_blank"
-                                class="forth_center_connect">
-                                <i></i>
-                                联系客服
-                            </a>
+                            <a href="javascript:;" zy-kefu class="botn">立即咨询</a>
                         </div>
-                        <div class="forth_center_r sixth_center_r">
-                            <div class="sixth_chart" id="sixth_chart">
-                                <div class="sixth_chart_t">
-                                    <img class="sixth_chart_img1"
-                                        src="https://style.yuzhua.com/public/mj/operate/images/icon10.png" alt="">
-                                    <span>传统营销</span>
-                                    <img class="sixth_chart_img2"
-                                        src="https://style.yuzhua.com/public/mj/operate/images/icon11.png" alt="">
-                                    <span>鱼爪整合营销</span>
-                                </div>
-                                <span class="sixth_chart_rate">总比率 100</span>
-                                <div class="sixth_chart_content">
-                                    <div class="sixth_chart_left">
-                                        <div class="sixth_chart_lTop">
-                                            <div class="sixth_chart_ll">
-                                                <span><i>100</i>%</span>
-                                            </div>
-                                            <div class="sixth_chart_lr">
-                                                <span><i>100</i>%</span>
-                                            </div>
-                                        </div>
-                                        <p class="sixth_chart_lOrder">订单回复率</p>
-                                        <p class="sixth_chart_lEffect">效果提升40%</p>
-                                    </div>
-                                    <div class="sixth_chart_right">
-                                        <div class="sixth_chart_rTop">
-                                            <div class="sixth_chart_rl">
-                                                <span><i>100</i>%</span>
-                                            </div>
-                                            <div class="sixth_chart_rr">
-                                                <span><i>100</i>%</span>
-                                            </div>
-                                        </div>
-                                        <p class="sixth_chart_rOrder">品牌传播度</p>
-                                        <p class="sixth_chart_rEffect">效果提升70%</p>
-                                    </div>
-                                </div>
-                            </div>
+                        <div class="seventh_center_r fr">
+                            <img src="../static/index/img/web/mode7-right.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <!--第7屏-->
-        <div class="section seventh">
-            <div class="flex_width">
+            <!--第8屏-->
+            <div class="section eighth">
                 <div class="common_top_content">
-                    <h3>06</h3>
-                    <h2>鱼爪核心优势四</h2>
-                    <p class="zh_text">PC端、移动端全渠道整合营销，用技术推动在线销售</p>
-                    <p class="en_text">ADVERTISING</p>
+                    <h3>ALI PEOPLE CORE ADVANTAGE FOUR</h3>
+                    <p class="line"></p>
+                    <p class="zh_text">阿里人核心优势四</p>
                 </div>
-                <div class="seventh_content clear">
+                <div class="eighth_content clear">
                     <div class="content_l">
-                        <h3>04</h3>
                         <h2>技术推动<br>多维度整合营销</h2>
-                        <div class="seventh_slide"></div>
-                        <p class="text dot">我们利用IT技术，多维度整合营销，让活动有更强的传播性。提升销售转化，低成本，高回报。</p>
+                        <p class="text">我们利用IT技术，多维度整合营销，让活动有更强的传播性。提升销售转化，低成本，高回报。</p>
                         <dl>
                             <dd><i></i>多语言网站建设（Web）、搜索引擎优化（SEO）</dd>
                             <dd><i></i>搜索引擎营销（SEM）、微信营销（H5）</dd>
                             <dd><i></i>社交媒体营销（SNS）、视频营销（Video）</dd>
                         </dl>
-                        <a href="https://gytk5.kuaishang.cn/bs/im.htm?cas=77240___930221&fi=88233" target="_blank"
-                            class="zspread"><i></i>联系客服</a>
+                        <a href="javascript:;" zy-kefu class="botn">立即咨询</a>
                     </div>
                     <div class="content_r">
-                        <dl class="table_box">
-                            <dt class="table_thead">
-                                <dl>
-                                    <dd class="thead_1"></dd>
-                                    <dd class="thead_2">鱼爪营销</dd>
-                                    <dd class="thead_3">传统营销</dd>
-                                </dl>
-                            </dt>
-                            <dd class="table_tbody">
-                                <dl>
-                                    <dd>
-                                        <div class="tbody_1">渠道覆盖</div>
-                                        <div class="tbody_2">多渠道整合</div>
-                                        <div class="tbody_3">渠道单一</div>
-                                    </dd>
-                                    <dd>
-                                        <div class="tbody_1">营销内容</div>
-                                        <div class="tbody_2">图文+视频+直播，多元化整合</div>
-                                        <div class="tbody_3">只有图文，内容单一</div>
-                                    </dd>
-                                    <dd>
-                                        <div class="tbody_1">传播方式</div>
-                                        <div class="tbody_2">分享转发、自传播</div>
-                                        <div class="tbody_3">广告推送、被动接受</div>
-                                    </dd>
-                                    <dd>
-                                        <div class="tbody_1">推广效果</div>
-                                        <div class="tbody_2">主动咨询，效果显著</div>
-                                        <div class="tbody_3">销售追单，效果一般</div>
-                                    </dd>
-                                    <dd>
-                                        <div class="tbody_1">市场费用</div>
-                                        <div class="tbody_2">资源整合，价格更低</div>
-                                        <div class="tbody_3">资源单一，报价偏高</div>
-                                    </dd>
-                                </dl>
-                            </dd>
-                        </dl>
-                        <p class="title">鱼爪整合营销完胜传统营销:</p>
-                        <p class="text">比传统营销传播度高<span>6</span>倍，比传统营销订单增长<span>3</span>倍，比传统营销预算节省<span>40%</span>。</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--第8屏-->
-        <div class="section eighth">
-            <div class="flex_width">
-                <div class="common_top_content">
-                    <h3>07</h3>
-                    <h2>真实推广案例</h2>
-                    <p class="zh_text">我们已帮助数百行业企业实现营销目标</p>
-                    <p class="en_text">ADVERTISING</p>
-                </div>
-                <div class="eighth_content">
-                    <dl class="eighth_items clear">
-                        <!--循环内容-->
-                        <dd class="item_1">
-                            <div class="item_l">
-                                <h1 class="position_rt">CASE</h1>
-                                <div class="item_lable"><span>微信、H5</span></div>
-                                <div class="title">
-                                    <span class="title_l">成功案例一：</span>
-                                    <a href="https://gytk5.kuaishang.cn/bs/im.htm?cas=77240___930221&fi=88233"
-                                        target="_blank" class="zspread title_r"><i></i>联系客服</a>
-                                </div>
-                                <div class="item_slide"></div>
-                                <p class="dot">
-                                    本地地产商，通过媒体的品牌宣传，同步在微博榜的冲击下，再用移动微信、朋友圈推广，参与官方微信活动，其中三天时间转发分享6万人次；活动参与超过40万人次，增粉超过10万，阅读量突破300万！开盘当天达到现场人数超过1万人，成交2000套，销售额达21亿！
-                                </p>
-                                <div class="data_num">
-                                    <div class="data_num_1">
-                                        <span class="num">1000<small>万人次传播</small></span>
-                                        <span class="text">有效触达</span>
-                                    </div>
-                                    <div class="data_num_2">
-                                        <span class="num">300<small>万页面转化</small></span>
-                                        <span class="text">有效点击</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item_r">
-                                <div class="item_r_top">
-                                    <div class="r_icon"></div>
-                                    <div class="r_text">
-                                        <span class="r_text_zh">推广效果</span>
-                                        <span class="r_text_en">EFFECT</span>
-                                    </div>
-                                </div>
-                                <ul>
-                                    <li>活动参与：<strong>40万人次</strong></li>
-                                    <li>转发分享：<strong>6万人次</strong></li>
-                                    <li>销售成交：<strong>2000套</strong></li>
-                                    <li>销售金额：<strong>21亿</strong></li>
-                                </ul>
-                            </div>
-                        </dd>
-                        <dd class="item_2">
-                            <div class="item_l">
-                                <h1 class="position_rt">CASE</h1>
-                                <div class="item_lable"><span>微博、公众号</span></div>
-                                <div class="title">
-                                    <span class="title_l">成功案例二：</span>
-                                    <a href="https://gytk5.kuaishang.cn/bs/im.htm?cas=77240___930221&fi=88233"
-                                        target="_blank" class="zspread title_r"><i></i>联系客服</a>
-                                </div>
-                                <div class="item_slide"></div>
-                                <p class="dot">
-                                    活动推广期间，微信推广覆盖130万粉丝，引发10万余次深度阅读，及8000多次分享！新浪微博指数当天创历史高峰，#双十一，一起美容#话题讨论超80万，排名热门第8位；百度搜索指数当天创历史高峰。
-                                </p>
-                                <div class="data_num">
-                                    <div class="data_num_1">
-                                        <span class="num">200<small>万人次</small></span>
-                                        <span class="text">现象级品牌曝光</span>
-                                    </div>
-                                    <div class="data_num_2">
-                                        <span class="num">80<small>%</small></span>
-                                        <span class="text">用户覆盖</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item_r">
-                                <div class="item_r_top">
-                                    <div class="r_icon"></div>
-                                    <div class="r_text">
-                                        <span class="r_text_zh">推广效果</span>
-                                        <span class="r_text_en">EFFECT</span>
-                                    </div>
-                                </div>
-                                <ul>
-                                    <li>话题讨论：<strong>超80万</strong></li>
-                                    <li>转发分享：<strong>8000多次</strong></li>
-                                    <li>推广覆盖：<strong>130万</strong></li>
-                                    <li>点击阅读：<strong>10万余次</strong></li>
-                                </ul>
-                            </div>
-                        </dd>
-                        <dd class="item_3">
-                            <div class="item_l">
-                                <h1 class="position_rt">CASE</h1>
-                                <div class="item_lable"><span>视频、抖音</span></div>
-                                <div class="title">
-                                    <span class="title_l">成功案例三：</span>
-                                    <a href="https://gytk5.kuaishang.cn/bs/im.htm?cas=77240___930221&fi=88233"
-                                        target="_blank" class="zspread title_r"><i></i>联系客服</a>
-                                </div>
-                                <div class="item_slide"></div>
-                                <p class="dot">
-                                    国内食品领域领导品牌，通过策划品牌故事视频在抖音APP上投放宣传，视频投放一周，播放总量超二百万次，活动参与超过100万人，粉丝积累超30万人，累计获赞14.4万，实现超高的曝光量，促进销售引流。
-                                </p>
-                                <div class="data_num">
-                                    <div class="data_num_1">
-                                        <span class="num">200<small>万人次</small></span>
-                                        <span class="text">播放总量</span>
-                                    </div>
-                                    <div class="data_num_2">
-                                        <span class="num">30<small>万+</small></span>
-                                        <span class="text">粉丝积累</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="item_r">
-                                <div class="item_r_top">
-                                    <div class="r_icon"></div>
-                                    <div class="r_text">
-                                        <span class="r_text_zh">推广效果</span>
-                                        <span class="r_text_en">EFFECT</span>
-                                    </div>
-                                </div>
-                                <ul>
-                                    <li>视频播放：<strong>200万次</strong></li>
-                                    <li>转发分享：<strong>40万人次</strong></li>
-                                    <li>推广覆盖：<strong>500万</strong></li>
-                                    <li>粉丝积累：<strong>30万人</strong></li>
-                                </ul>
-                            </div>
-                        </dd>
-                    </dl>
-                    <div class="phone_box">
-                        <div class="phone_bg position_zz"></div>
-                        <div class="phone_items_box position_zz">
-                            <dl class="phone_items clear">
-                                <!--循环手机内的图片-->
-                                <dd><img src="https://style.yuzhua.com/public/mj/operate/images/casepic01.jpg" alt="">
-                                </dd>
-                                <dd><img src="https://style.yuzhua.com/public/mj/operate/images/casepic02.jpg" alt="">
-                                </dd>
-                                <dd><img src="https://style.yuzhua.com/public/mj/operate/images/casepic03.jpg" alt="">
+                        <div class="table_box_wrap">
+                            <dl class="table_box">
+                                <dt class="table_thead">
+                                    <dl>
+                                        <dd class="thead_1"></dd>
+                                        <dd class="thead_2">阿里人营销</dd>
+                                        <dd class="thead_3">传统营销</dd>
+                                    </dl>
+                                </dt>
+                                <dd class="table_tbody">
+                                    <dl>
+                                        <dd>
+                                            <div class="tbody_1">渠道覆盖</div>
+                                            <div class="tbody_2">多渠道整合</div>
+                                            <div class="tbody_3">渠道单一</div>
+                                        </dd>
+                                        <dd>
+                                            <div class="tbody_1">营销内容</div>
+                                            <div class="tbody_2">图文+视频+直播，多元化整合</div>
+                                            <div class="tbody_3">只有图文，内容单一</div>
+                                        </dd>
+                                        <dd>
+                                            <div class="tbody_1">传播方式</div>
+                                            <div class="tbody_2">分享转发、自传播</div>
+                                            <div class="tbody_3">广告推送、被动接受</div>
+                                        </dd>
+                                        <dd>
+                                            <div class="tbody_1">推广效果</div>
+                                            <div class="tbody_2">主动咨询，效果显著</div>
+                                            <div class="tbody_3">销售追单，效果一般</div>
+                                        </dd>
+                                        <dd>
+                                            <div class="tbody_1">市场费用</div>
+                                            <div class="tbody_2">资源整合，价格更低</div>
+                                            <div class="tbody_3">资源单一，报价偏高</div>
+                                        </dd>
+                                    </dl>
                                 </dd>
                             </dl>
                         </div>
-                        <div class="phone_btn">
-                            <a href="javascript:;" class="prev_phone"></a>
-                            <a href="javascript:;" class="next_phone"></a>
-                        </div>
-                    </div>
-                    <div class="page_num_box">
-                        <span class="curr_num"></span><span class="total_num"></span>
-                    </div>
-                    <div class="btn_box">
-                        <a href="javascript:;" class="zspread prev_item"></a>
-                        <a href="javascript:;" class="zspread next_item"></a>
+                        <p class="title">客户是我们的代言人</p>
+                        <p class="text"> 服务<span>350+</span>全行业中小微企业，拥有资深互联网营销及品牌运营经验，客户<span>好评率100%</span>，
+                            优质服务商的口碑业内频频相传！</p>
                     </div>
                 </div>
             </div>
-        </div>
-
-        <!--第9屏-->
-        <div class="section ninth">
-            <div class="flex_width">
+            <!--第9屏-->
+            <div class="section ninth">
                 <div class="common_top_content">
-                    <h3>08</h3>
-                    <h2>我们的服务流程</h2>
-                    <p class="zh_text">我们为您提供的解决方案</p>
-                    <p class="en_text">ADVERTISING</p>
+                    <h3>REAL CASE PRESENTATION</h3>
+                    <p class="line"></p>
+                    <p class="zh_text">真实案例展示</p>
                 </div>
-                <dl class="ninth_items">
-                    <dd class="item_1">
-                        <div class="big_bg position_zz"></div>
-                        <div class="ninth_icon position_zz">
-                            <p class="item_num">01</p>
-                            <p class="item_text">需求分析</p>
+                <div class="ninth_process-box">
+                    <div class="ninth_process">
+                        <div class="swiper-container" 
+                        new-swiper 
+                        site-loop
+                        site-navigation="{nextEl: '.swiper-button-next',prevEl: '.swiper-button-prev',}">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide clearfix">
+                                    <div class="left-text fl">
+                                        <div class="info">
+                                            <p class="tit">案例一：（中科善益康）</p>
+                                            <p class="content">中科善益康，通过媒体的品牌宣传，同步在微博榜的冲击下，再用移动信、朋友圈推广，参与官方微信活动，其中三天时间转发分享6万人次；活动参与超过40万人次，增粉超过10万，阅读量突破300万！开盘当天达到现场人数超过1万人，成交2000套，销售额达21亿！ </p>
+                                            <a href="javascript:;" class="more-anli">更多案例</a>
+                                        </div>
+                                        <div class="tui">
+                                            <p>推广效果：</p>
+                                            <ul class="clearfix">
+                                                <li>访问次数：40万人次</li>
+                                                <li>销售成交：2000人</li>
+                                                <li>咨询次数：6万人次</li>
+                                                <li>销售金额：21亿</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="right-img-box fr">
+                                        <div class="imgwrap">
+                                            <img src="../static/index/img/web/mode9-anli1.png" alt="">
+                                        </div>
+                                        <div class="info clearfix">
+                                            <div class="left-text fl">
+                                                <p>1000万人次传播</p>
+                                                <p>有效触达</p>
+                                            </div>
+                                            <div class="right-text fl">
+                                                <p>300万页面转化</p>
+                                                <p>有效点击</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide clearfix">
+                                    <div class="left-text fl">
+                                        <div class="info">
+                                            <p class="tit">案例二：（中科善益康）</p>
+                                            <p class="content">中科善益康，通过媒体的品牌宣传，同步在微博榜的冲击下，再用移动信、朋友圈推广，参与官方微信活动，其中三天时间转发分享6万人次；活动参与超过40万人次，增粉超过10万，阅读量突破300万！开盘当天达到现场人数超过1万人，成交2000套，销售额达21亿！ </p>
+                                            <a href="javascript:;" class="more-anli">更多案例</a>
+                                        </div>
+                                        <div class="tui">
+                                            <p>推广效果：</p>
+                                            <ul class="clearfix">
+                                                <li>访问次数：40万人次</li>
+                                                <li>销售成交：2000人</li>
+                                                <li>咨询次数：6万人次</li>
+                                                <li>销售金额：21亿</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="right-img-box fr">
+                                        <div class="imgwrap">
+                                            <img src="../static/index/img/web/mode9-anli1.png" alt="">
+                                        </div>
+                                        <div class="info clearfix">
+                                            <div class="left-text fl">
+                                                <p>1000万人次传播</p>
+                                                <p>有效触达</p>
+                                            </div>
+                                            <div class="right-text fl">
+                                                <p>300万页面转化</p>
+                                                <p>有效点击</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide clearfix">
+                                    <div class="left-text fl">
+                                        <div class="info">
+                                            <p class="tit">案例三：（中科善益康）</p>
+                                            <p class="content">中科善益康，通过媒体的品牌宣传，同步在微博榜的冲击下，再用移动信、朋友圈推广，参与官方微信活动，其中三天时间转发分享6万人次；活动参与超过40万人次，增粉超过10万，阅读量突破300万！开盘当天达到现场人数超过1万人，成交2000套，销售额达21亿！ </p>
+                                            <a href="javascript:;" class="more-anli">更多案例</a>
+                                        </div>
+                                        <div class="tui">
+                                            <p>推广效果：</p>
+                                            <ul class="clearfix">
+                                                <li>访问次数：40万人次</li>
+                                                <li>销售成交：2000人</li>
+                                                <li>咨询次数：6万人次</li>
+                                                <li>销售金额：21亿</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="right-img-box fr">
+                                        <div class="imgwrap">
+                                            <img src="../static/index/img/web/mode9-anli1.png" alt="">
+                                        </div>
+                                        <div class="info clearfix">
+                                            <div class="left-text fl">
+                                                <p>1000万人次传播</p>
+                                                <p>有效触达</p>
+                                            </div>
+                                            <div class="right-text fl">
+                                                <p>300万页面转化</p>
+                                                <p>有效点击</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide clearfix">
+                                    <div class="left-text fl">
+                                        <div class="info">
+                                            <p class="tit">案例四：（中科善益康）</p>
+                                            <p class="content">中科善益康，通过媒体的品牌宣传，同步在微博榜的冲击下，再用移动信、朋友圈推广，参与官方微信活动，其中三天时间转发分享6万人次；活动参与超过40万人次，增粉超过10万，阅读量突破300万！开盘当天达到现场人数超过1万人，成交2000套，销售额达21亿！ </p>
+                                            <a href="javascript:;" class="more-anli">更多案例</a>
+                                        </div>
+                                        <div class="tui">
+                                            <p>推广效果：</p>
+                                            <ul class="clearfix">
+                                                <li>访问次数：40万人次</li>
+                                                <li>销售成交：2000人</li>
+                                                <li>咨询次数：6万人次</li>
+                                                <li>销售金额：21亿</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="right-img-box fr">
+                                        <div class="imgwrap">
+                                            <img src="../static/index/img/web/mode9-anli1.png" alt="">
+                                        </div>
+                                        <div class="info clearfix">
+                                            <div class="left-text fl">
+                                                <p>1000万人次传播</p>
+                                                <p>有效触达</p>
+                                            </div>
+                                            <div class="right-text fl">
+                                                <p>300万页面转化</p>
+                                                <p>有效点击</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                    </dd>
-                    <dt class="diandian_1"><span class="dian_1"></span><span class="dian_2"></span><span
-                            class="dian_3"></span></dt>
-                    <dd class="item_2">
-                        <div class="big_bg position_zz"></div>
-                        <div class="ninth_icon position_zz">
-                            <p class="item_num">02</p>
-                            <p class="item_text">创意制作</p>
-                        </div>
-                    </dd>
-                    <dt class="diandian_2"><span class="dian_1"></span><span class="dian_2"></span><span
-                            class="dian_3"></span></dt>
-                    <dd class="item_3">
-                        <div class="big_bg position_zz"></div>
-                        <div class="ninth_icon position_zz">
-                            <p class="item_num">03</p>
-                            <p class="item_text">投放管理</p>
-                        </div>
-                    </dd>
-                    <dt class="diandian_3"><span class="dian_1"></span><span class="dian_2"></span><span
-                            class="dian_3"></span></dt>
-                    <dd class="item_4">
-                        <div class="big_bg position_zz"></div>
-                        <div class="ninth_icon position_zz">
-                            <p class="item_num">04</p>
-                            <p class="item_text">效果评估</p>
-                        </div>
-                    </dd>
-                    <dt class="diandian_4"><span class="dian_1"></span><span class="dian_2"></span><span
-                            class="dian_3"></span></dt>
-                    <dd class="item_5">
-                        <div class="big_bg position_zz"></div>
-                        <div class="ninth_icon position_zz">
-                            <p class="item_num">05</p>
-                            <p class="item_text">持续优化</p>
-                        </div>
-                    </dd>
-                </dl>
-                <a href="https://gytk5.kuaishang.cn/bs/im.htm?cas=77240___930221&fi=88233" target="_blank"
-                    class="consult_btn zspread">联系客服<span class="second_arrow"><i></i></span></a>
+                    </div>
+                    <div class="swiper-button-next swiper-button-white"></div>
+                    <div class="swiper-button-prev swiper-button-white"></div>
+                </div>
+            </div>
+            <!--第10屏-->
+            <div class="section tenth">
+                <div class="record-info">
+                    <p>咨询顾问： 156 6708 0555</p>
+                    <p>公司邮箱： kefu@zksyk.com</p>
+                    <p>业务电话： 18991296615</p>
+                    <p>公司地址：陕西省，西安市，未央区，保利中达广场1603</p>
+                    <img class="qrcode" src="../static/index/img/QRcode.png" alt="">
+                </div>
             </div>
         </div>
-
-        <!--第10屏-->
-        <div class="section tenth">
-            <div class="flex_width">
-                <div class="common_top_content">
-                    <h3>09</h3>
-                    <h2>企业经营，思路决定出路,换个思路多条活路</h2>
-                    <p class="zh_text">欢迎咨询我们，企业营销难点，帮您立即解决！</p>
-                    <p class="en_text">ADVERTISING</p>
-                </div>
-                <dl class="tenth_items">
-                    <a href="javascript:;">
-                        <dd class="item_1">
-                            <h2>01<span>PART</span></h2>
-                            <div class="tenth_icon"></div>
-                            <p>网站无流量</p>
-                        </dd>
-                    </a>
-                    <a href="javascript:;">
-                        <dd class="item_2">
-                            <h2>02<span>PART</span></h2>
-                            <div class="tenth_icon"></div>
-                            <p>业绩没增量</p>
-                        </dd>
-                    </a>
-                    <a href="javascript:;">
-                        <dd class="item_3">
-                            <h2>03<span>PART</span></h2>
-                            <div class="tenth_icon"></div>
-                            <p>推广费用高</p>
-                        </dd>
-                    </a>
-                    <a href="javascript:;">
-                        <dd class="item_4">
-                            <h2>04<span>PART</span></h2>
-                            <div class="tenth_icon"></div>
-                            <p>产品销量低</p>
-                        </dd>
-                    </a>
-                    <a href="javascript:;">
-                        <dd class="item_5">
-                            <h2>05<span>PART</span></h2>
-                            <div class="tenth_icon"></div>
-                            <p>设计不专业</p>
-                        </dd>
-                    </a>
-                    <a href="javascript:;">
-                        <dd class="item_6">
-                            <h2>06<span>PART</span></h2>
-                            <div class="tenth_icon"></div>
-                            <p>流量不精准</p>
-                        </dd>
-                    </a>
-                </dl>
-                <a href="https://gytk5.kuaishang.cn/bs/im.htm?cas=77240___930221&fi=88233" target="_blank"
-                    class="consult_btn zspread">立即咨询<span class="second_arrow"><i></i></span></a>
-            </div>
-        </div>
-
-    </div>
+    </main>
     <script>
         NProgress.done();
     </script>

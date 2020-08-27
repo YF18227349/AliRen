@@ -1,0 +1,57 @@
+@charset "UTF-8";
+/*绝对剧中 - z 轴*/
+.position_zz {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/*绝对剧中 - x 轴*/
+.position_xz {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+/*绝对居中 - y 轴*/
+.position_yz {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+/*绝对居左 - left*/
+.position_lt {
+  position: absolute;
+  left: 0;
+}
+
+/*绝对居右 - right*/
+.position_rt {
+  position: absolute;
+  right: 0;
+}
+
+/*绝对居上 - top*/
+.position_tp {
+  position: absolute;
+  top: 0;
+}
+
+/*绝对居下 - bottom*/
+.position_bt {
+  position: absolute;
+  bottom: 0;
+}
+
+.flex_width {
+  width: 1300px;
+  height: auto;
+  margin: auto;
+  cursor: default;
+}
